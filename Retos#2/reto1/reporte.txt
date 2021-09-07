@@ -1,0 +1,873 @@
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+depurador.gdb:26: Error in sourced command file:
+No symbol "cont" in current context.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$3 = {-0.99733494735717776, 0}
+$4 = {-0.020274803370952665, 0}
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$5 = {-0.60024282580626009, 0}
+$6 = {-0.62051762917721276, 0}
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {0.97706014398622509, 0}
+$8 = {0.35654251480901233, 0}
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$9 = {-0.47748187791752816, 0}
+$10 = {-0.12093936310851583, 0}
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$11 = {6, 0}
+$12 = {0.14268679681295154, -nan(0x8000000000000)}
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$13 = {6, 0}
+$14 = {25.229924797131677, 0}
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$15 = {6, 0}
+$16 = {48.962696365506083, 0}
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$17 = {6, 0}
+$18 = {43.563205359607011, 0}
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$21 = {6, 0}
+$22 = {41.957771478749983, 0}
+[Inferior 1 (process 748) exited normally]
+depurador.gdb:26: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 5
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 3
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 2
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$16 = {6, 0}
+$17 = {0.14268679681295154, -nan(0x8000000000000)}
+$18 = 1
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$22 = {6, 0}
+$23 = {48.962696365506083, 0}
+$24 = 5
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$25 = {6, 0}
+$26 = {43.563205359607011, 0}
+$27 = 4
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$28 = {6, 0}
+$29 = {25.229924797131677, 0}
+$30 = 3
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$31 = {6, 0}
+$32 = {41.957771478749983, 0}
+$33 = 2
+[Inferior 1 (process 761) exited normally]
+depurador.gdb:27: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 5
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 3
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 2
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$16 = {6, 0}
+$17 = {0.14268679681295154, -nan(0x8000000000000)}
+$18 = 1
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$22 = {6, 0}
+$23 = {48.962696365506083, 0}
+$24 = 5
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$25 = {6, 0}
+$26 = {43.563205359607011, 0}
+$27 = 4
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$28 = {6, 0}
+$29 = {25.229924797131677, 0}
+$30 = 3
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$31 = {6, 0}
+$32 = {41.957771478749983, 0}
+$33 = 2
+[Inferior 1 (process 774) exited normally]
+depurador.gdb:27: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+depurador.gdb:21: Error in sourced command file:
+History has not yet reached $10.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+depurador.gdb:28: Error in sourced command file:
+Undefined command: "$aux".  Try "help".
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$16 = {6, 0}
+$17 = {0.14268679681295154, -nan(0x8000000000000)}
+$18 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$22 = {6, 0}
+$23 = {48.962696365506083, 0}
+$24 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$25 = {6, 0}
+$26 = {43.563205359607011, 0}
+$27 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$28 = {6, 0}
+$29 = {25.229924797131677, 0}
+$30 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+<------REGISTRO 2.0------>
+$31 = {6, 0}
+[Inferior 1 (process 813) exited normally]
+depurador.gdb:40: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 10
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 8
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 7
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$16 = {6, 0}
+$17 = {0.14268679681295154, -nan(0x8000000000000)}
+$18 = 5
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 4
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$22 = {6, 0}
+$23 = {48.962696365506083, 0}
+$24 = 3
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$25 = {6, 0}
+$26 = {43.563205359607011, 0}
+$27 = 2
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$28 = {6, 0}
+$29 = {25.229924797131677, 0}
+$30 = 1
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+<------REGISTRO 2.0------>
+$31 = {6, 0}
+[Inferior 1 (process 826) exited normally]
+depurador.gdb:41: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 5
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 3
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 2
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$16 = {6, 0}
+$17 = {0.14268679681295154, -nan(0x8000000000000)}
+$18 = 1
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 6
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$22 = {6, 0}
+$23 = {48.962696365506083, 0}
+$24 = 5
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$25 = {6, 0}
+$26 = {43.563205359607011, 0}
+$27 = 4
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+$28 = {6, 0}
+$29 = {25.229924797131677, 0}
+$30 = 3
+
+Breakpoint 2, 0x00005555555551f9 in bucle ()
+<------REGISTRO 2.0------>
+$31 = {6, 0}
+[Inferior 1 (process 839) exited normally]
+depurador.gdb:41: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x1210
+Breakpoint 3 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 5
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 3
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 2
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$16 = {6, 0}
+$17 = {0.14268679681295154, -nan(0x8000000000000)}
+$18 = 1
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 6
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$22 = {6, 0}
+$23 = {25.229924797131677, 0}
+$24 = 5
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$25 = {6, 0}
+$26 = {48.962696365506083, 0}
+$27 = 5
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$28 = {6, 0}
+$29 = {48.962696365506083, 0}
+$30 = 4
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+<------REGISTRO 2.0------>
+$31 = {6, 0}
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$32 = {25.229924797131677, 0}
+$33 = {142.98575131937645, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$34 = {25.229924797131677, 0}
+$35 = {142.98575131937645, 0}
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$36 = {41.957771478749983, 0}
+$37 = {184.94352279812642, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$38 = {41.957771478749983, 0}
+$39 = {184.94352279812642, 0}
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$40 = {25.229924797131677, 0}
+$41 = {210.1734475952581, 0}
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x1210
+Breakpoint 3 at 0x11f9
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$4 = {-0.60024282580626009, 0}
+$5 = {-0.62051762917721276, 0}
+$6 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {-0.47748187791752816, 0}
+$8 = {-0.12093936310851583, 0}
+$9 = 2
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$10 = {6, 0}
+$11 = {25.229924797131677, 0}
+$12 = 6
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$13 = {6, 0}
+$14 = {48.962696365506083, 0}
+$15 = 5
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$16 = {6, 0}
+$17 = {43.563205359607011, 0}
+$18 = 4
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 3
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$22 = {6, 0}
+$23 = {41.957771478749983, 0}
+$24 = 2
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 2, 0x0000555555555210 in breakpoint42 ()
+$25 = {6, 0}
+$26 = {25.229924797131677, 0}
+$27 = 1
+[Inferior 1 (process 865) exited normally]
+depurador.gdb:33: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11dc
+Breakpoint 3 at 0x11f9
+Breakpoint 4 at 0x1210
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 5
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 3
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 2
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$16 = {0.97706014398622509, 0}
+$17 = {0.85612078087770926, 0}
+$18 = 1
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 6
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$22 = {6, 0}
+$23 = {48.962696365506083, 0}
+$24 = 5
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$25 = {6, 0}
+$26 = {43.563205359607011, 0}
+$27 = 4
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$28 = {6, 0}
+$29 = {25.229924797131677, 0}
+$30 = 3
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+<------REGISTRO 2.0------>
+$31 = {6, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$32 = {41.957771478749983, 0}
+$33 = {184.94352279812642, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$34 = {25.229924797131677, 0}
+$35 = {210.1734475952581, 0}
+A debugging session is active.
+
+	Inferior 1 [process 878] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11dc
+Breakpoint 3 at 0x11f9
+Breakpoint 4 at 0x1210
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$1 = {0.97706014398622509, 0}
+$2 = {0.97706014398622509, 0}
+$3 = 6
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$4 = {-0.99733494735717776, 0}
+$5 = {-0.020274803370952665, 0}
+$6 = 5
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$7 = {-0.60024282580626009, 0}
+$8 = {-0.62051762917721276, 0}
+$9 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$10 = {0.97706014398622509, 0}
+$11 = {0.35654251480901233, 0}
+$12 = 3
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$13 = {-0.47748187791752816, 0}
+$14 = {-0.12093936310851583, 0}
+$15 = 2
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$16 = {0.97706014398622509, 0}
+$17 = {0.85612078087770926, 0}
+$18 = 1
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$19 = {6, 0}
+$20 = {25.229924797131677, 0}
+$21 = 6
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$22 = {6, 0}
+$23 = {48.962696365506083, 0}
+$24 = 5
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$25 = {6, 0}
+$26 = {43.563205359607011, 0}
+$27 = 4
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$28 = {6, 0}
+$29 = {25.229924797131677, 0}
+$30 = 3
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+<------REGISTRO 2.0------>
+$31 = {6, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$32 = {41.957771478749983, 0}
+$33 = {184.94352279812642, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$34 = {25.229924797131677, 0}
+$35 = {210.1734475952581, 0}
+A debugging session is active.
+
+	Inferior 1 [process 891] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x11cb
+Breakpoint 2 at 0x11dc
+Breakpoint 3 at 0x11f9
+Breakpoint 4 at 0x1210
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+<------REGISTROS 1.0------>
+rax            0x7fffffffc280      140737488339584
+r9             0x6                 6
+$1 = {0, 0}
+$2 = {0, 0}
+$3 = 6
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$4 = {0.97706014398622509, 0}
+$5 = {0.97706014398622509, 0}
+$6 = 5
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$7 = {0.97706014398622509, 0}
+$8 = {0.97706014398622509, 0}
+$9 = 5
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$10 = {-0.99733494735717776, 0}
+$11 = {-0.020274803370952665, 0}
+$12 = 4
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$13 = {-0.99733494735717776, 0}
+$14 = {-0.020274803370952665, 0}
+$15 = 4
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$16 = {-0.60024282580626009, 0}
+$17 = {-0.62051762917721276, 0}
+$18 = 3
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$19 = {-0.60024282580626009, 0}
+$20 = {-0.62051762917721276, 0}
+$21 = 3
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$22 = {0.97706014398622509, 0}
+$23 = {0.35654251480901233, 0}
+$24 = 2
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$25 = {0.97706014398622509, 0}
+$26 = {0.35654251480901233, 0}
+$27 = 2
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+$28 = {-0.47748187791752816, 0}
+$29 = {-0.12093936310851583, 0}
+$30 = 1
+
+Breakpoint 1, 0x00005555555551cb in calcularmedia ()
+$31 = {-0.47748187791752816, 0}
+$32 = {-0.12093936310851583, 0}
+$33 = 1
+
+Breakpoint 2, 0x00005555555551dc in breakpoint21 ()
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+<------REGISTRO 2.0------>
+$34 = {6, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$35 = {25.229924797131677, 0}
+$36 = {25.229924797131677, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$37 = {25.229924797131677, 0}
+$38 = {25.229924797131677, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$39 = {48.962696365506083, 0}
+$40 = {74.192621162637764, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$41 = {48.962696365506083, 0}
+$42 = {74.192621162637764, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$43 = {43.563205359607011, 0}
+$44 = {117.75582652224477, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$45 = {43.563205359607011, 0}
+$46 = {117.75582652224477, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$47 = {25.229924797131677, 0}
+$48 = {142.98575131937645, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$49 = {25.229924797131677, 0}
+$50 = {142.98575131937645, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$51 = {41.957771478749983, 0}
+$52 = {184.94352279812642, 0}
+
+Breakpoint 3, 0x00005555555551f9 in bucle ()
+$53 = {41.957771478749983, 0}
+$54 = {184.94352279812642, 0}
+
+Breakpoint 4, 0x0000555555555210 in breakpoint42 ()
+$55 = {25.229924797131677, 0}
+$56 = {210.1734475952581, 0}
+A debugging session is active.
+
+	Inferior 1 [process 1022] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

@@ -1,0 +1,85 @@
+Breakpoint 1 at 0x11ab
+Breakpoint 2 at 0x11b7
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+<------REGISTROS 1.0------>
+rax            0xa                 10
+r9             0xa                 10
+$1 = {1.1000000000000001, 0}
+$2 = 0
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+$3 = {1.1000000000000001, 0}
+$4 = 0
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+$5 = {1.2100000000000002, 0}
+$6 = 0
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+$7 = {1.2100000000000002, 0}
+$8 = 1
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+$9 = {1.4641000000000004, 0}
+$10 = 1
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+$11 = {1.4641000000000004, 0}
+$12 = 0
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+$13 = {2.1435888100000011, 0}
+$14 = 0
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+A debugging session is active.
+
+	Inferior 1 [process 1042] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x11ab
+Breakpoint 2 at 0x11b7
+Breakpoint 3 at 0x11c1
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+<------REGISTROS 1.0------>
+rax            0xa                 10
+r9             0xa                 10
+$1 = {1.1000000000000001, 0}
+$2 = 0
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+$3 = {1.1000000000000001, 0}
+$4 = 0
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+$5 = {1.2100000000000002, 0}
+$6 = 0
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+$7 = {1.2100000000000002, 0}
+$8 = 1
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+$9 = {1.4641000000000004, 0}
+$10 = 1
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+$11 = {1.4641000000000004, 0}
+$12 = 0
+
+Breakpoint 1, 0x00005555555551ab in potenciadorBinario ()
+$13 = {2.1435888100000011, 0}
+$14 = 0
+
+Breakpoint 2, 0x00005555555551b7 in continuar ()
+
+Breakpoint 3, 0x00005555555551c1 in fin ()
+0x00005555555551c5 in fin ()
+$15 = {2.5937424601000019, 9.532824124368238e-130}
+A debugging session is active.
+
+	Inferior 1 [process 1055] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
