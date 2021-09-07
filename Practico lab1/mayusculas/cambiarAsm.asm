@@ -25,9 +25,9 @@ iteracion:
     ; sub [edi],32
     ; add edi,4
     ; loop iteracion
-    mov eax,edi
-    sub eax,valor32
-    mov [edi],[eax]
+    mov eax,[edi]
+    sub eax,[ rel valor32]
+    mov [edi],eax
     add edi,4
     loop iteracion
 
