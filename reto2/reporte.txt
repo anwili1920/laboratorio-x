@@ -1,0 +1,1633 @@
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401030: file assembler.asm, line 11.
+Breakpoint 3 at 0x40109e: file assembler.asm, line 30.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:24: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401030: file assembler.asm, line 11.
+Breakpoint 3 at 0x40105e: file assembler.asm, line 18.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:24: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401030: file assembler.asm, line 11.
+Breakpoint 3 at 0x40105e: file assembler.asm, line 18.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:24: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x40109e: file assembler.asm, line 30.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:23: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x40109e: file assembler.asm, line 30.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x4010ac: file assembler.asm, line 34.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x4010ac: file assembler.asm, line 34.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+depurador.gdb:14: Error in sourced command file:
+Undefined command: "b13".  Try "help".
+Breakpoint 1 at 0x401000
+depurador.gdb:14: Error in sourced command file:
+Undefined command: "b13".  Try "help".
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x4010ac: file assembler.asm, line 34.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:24: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x4010ac: file assembler.asm, line 34.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:25: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:25: Error in sourced command file:
+The program has no registers now.
+Error detected on fd 0
+error detected on stdin
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:25: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:25: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:25: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+rax            0xe                 14
+r8             0x91                145
+r9             0x2                 2
+rbx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:25: Error in sourced command file:
+The program has no registers now.
+No symbol "r9" in current context.
+No symbol "r9b" in current context.
+No symbol "x" in current context.
+The program is not being run.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+The program is not being run.
+The program is not being run.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+Breakpoint 4 at 0x40108c: file assembler.asm, line 26.
+depurador.gdb:17: Error in sourced command file:
+No symbol "rax" in current context.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401046: file assembler.asm, line 14.
+Breakpoint 3 at 0x401080: file assembler.asm, line 24.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401080: file assembler.asm, line 24.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401080: file assembler.asm, line 24.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x40109e: file assembler.asm, line 30.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 20.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401086: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401086: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rax            0xe                 14
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401086: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401080: file assembler.asm, line 24.
+Breakpoint 3 at 0x401086: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 20.
+Breakpoint 3 at 0x401086: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 19.
+Breakpoint 3 at 0x40108a: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401072: file assembler.asm, line 21.
+Breakpoint 3 at 0x40108a: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+The program is not being run.
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+Undefined command: "nasm".  Try "help".
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401062: file assembler.asm, line 20.
+Breakpoint 3 at 0x401080: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401062: file assembler.asm, line 20.
+Breakpoint 3 at 0x401080: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401062: file assembler.asm, line 20.
+Breakpoint 3 at 0x401080: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 21.
+Breakpoint 3 at 0x401080: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 21.
+Breakpoint 3 at 0x401080: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 21.
+Breakpoint 3 at 0x401080: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401064: file assembler.asm, line 20.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401029 in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Undefined command: "gdb".  Try "help".
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401064: file assembler.asm, line 20.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0xfffffffc6f0cdc4e  -15316755378
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0xfffffffc6f0cdc4e  -15316755378
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401064: file assembler.asm, line 20.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401064: file assembler.asm, line 20.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401064: file assembler.asm, line 20.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401064: file assembler.asm, line 21.
+Breakpoint 3 at 0x401074: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102c in extraer_digitos ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x0                 0
+rax            0xe                 14
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x5                 5
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401064: file assembler.asm, line 21.
+Breakpoint 3 at 0x401074: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401043 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x1                 1
+rax            0x78                120
+rbx            0x78                120
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401043 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x1                 1
+rax            0x78                120
+rbx            0x78                120
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Not confirmed.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401043 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x1                 1
+rax            0x78                120
+rbx            0x78                120
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+The program is not being run.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401043 in iterar ()
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000401000 <_start>
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000000000401068 assembler.asm:22
+3       breakpoint     keep y   0x000000000040107c assembler.asm:25
+Undefined command: "dissasemble".  Try "help".
+Dump of assembler code for function iterar:
+   0x0000000000401034 <+0>:	mul    %r11
+   0x0000000000401037 <+3>:	dec    %r11
+   0x000000000040103a <+6>:	cmp    $0x1,%r11
+   0x000000000040103e <+10>:	jne    0x401034 <iterar>
+   0x0000000000401040 <+12>:	add    %rax,%rbx
+=> 0x0000000000401043 <+15>:	mov    (%r10),%rax
+   0x0000000000401046 <+18>:	cmp    $0x0,%r9b
+   0x000000000040104a <+22>:	jne    0x401023 <extraer_digitos>
+   0x000000000040104c <+24>:	cmp    %r8,%rbx
+   0x000000000040104f <+27>:	jne    0x401056 <nofuerte>
+   0x0000000000401051 <+29>:	mov    $0x54,%ecx
+End of assembler dump.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+The program has no registers now.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401043 in iterar ()
+Undefined command: "dissasemble".  Try "help".
+Dump of assembler code for function iterar:
+   0x0000000000401034 <+0>:	mul    %r11
+   0x0000000000401037 <+3>:	dec    %r11
+   0x000000000040103a <+6>:	cmp    $0x1,%r11
+   0x000000000040103e <+10>:	jne    0x401034 <iterar>
+   0x0000000000401040 <+12>:	add    %rax,%rbx
+=> 0x0000000000401043 <+15>:	mov    (%r10),%rax
+   0x0000000000401046 <+18>:	cmp    $0x0,%r9b
+   0x000000000040104a <+22>:	jne    0x401023 <extraer_digitos>
+   0x000000000040104c <+24>:	cmp    %r8,%rbx
+   0x000000000040104f <+27>:	jne    0x401056 <nofuerte>
+   0x0000000000401051 <+29>:	mov    $0x54,%ecx
+End of assembler dump.
+r10            0xe                 14
+Undefined command: "qq".  Try "help".
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0xfffffffed15d13c6  -5077396538
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0xfffffffed15d13c6  -5077396538
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0xffffffff36507921  -3383723743
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0xffffffff36507921  -3383723743
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40107c: file assembler.asm, line 25.
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401046 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x1                 1
+rax            0x0                 0
+rbx            0x78                120
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x401059
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401046 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x1                 1
+rax            0x0                 0
+rbx            0x78                120
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401068: file assembler.asm, line 22.
+Breakpoint 3 at 0x40105e
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401046 in iterar ()
+<------REGISTROS 2.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x1                 1
+rax            0x0                 0
+rbx            0x78                120
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 3.0------>
+depurador.gdb:26: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x40105e
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401046 in iterar ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0xe                 14
+r11            0x1                 1
+rax            0x0                 0
+rbx            0x78                120
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+The program is not being run.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto2/assembler 10
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000401046 in iterar ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+The program is not being run.
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x40105e
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0xffffffff54efb71a  -2869971174
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+Continuing.
+
+Program received signal SIGTSTP, Stopped (user).
+0x0000000000401037 in iterar ()
+rax            0x0                 0
+rbx            0x90                144
+rcx            0x0                 0
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x0                 0
+rbp            0x0                 0x0
+rsp            0x7fffffffe300      0x7fffffffe300
+r8             0x91                145
+r9             0x0                 0
+r10            0x0                 0
+r11            0xffffffff23626287  -3701316985
+r12            0xa                 10
+r13            0x0                 0
+r14            0x0                 0
+r15            0x0                 0
+rip            0x401037            0x401037 <iterar+3>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x40105e
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Breakpoint 2, 0x000000000040105e in end ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0x0                 0
+rax            0x0                 0
+rbx            0x91                145
+rcx            0x46                70
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000000002 in ?? ()
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x40105e
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Breakpoint 2, 0x000000000040105e in end ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0x0                 0
+rax            0x0                 0
+rbx            0x91                145
+rcx            0x46                70
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000000002 in ?? ()
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401066
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Breakpoint 2, 0x0000000000401066 in end ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0x0                 0
+rax            0x0                 0
+rbx            0x91                145
+rcx            0x40200c            4202508
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000000002 in ?? ()
+$1 = 84 'T'
+quit
+quit
+Breakpoint 1 at 0x401000
+Breakpoint 2 at 0x401066
+
+Breakpoint 1, 0x0000000000401000 in _start ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x0                 0
+r9             0x0                 0
+rbx            0x0                 0
+rdx            0x0                 0
+
+Breakpoint 2, 0x0000000000401066 in end ()
+<------REGISTROS 3.0------>
+r8             0x91                145
+r10            0x0                 0
+r11            0x0                 0
+rax            0x0                 0
+rbx            0x91                145
+rcx            0x40200c            4202508
+rdx            0x0                 0
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000000002 in ?? ()
+<------print (char) letter------>

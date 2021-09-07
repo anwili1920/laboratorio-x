@@ -1,0 +1,95 @@
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
+Function "_star" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Breakpoint 1 at 0x401039
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102e in numerador ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+r8             0x3                 3
+r9             0x5                 5
+r10            0x2                 2
+rax            0x0                 0
+rbx            0x0                 0
+rcx            0x402004            4202500
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+<------REGISTROS 1.0------>
+depurador.gdb:21: Error in sourced command file:
+The program has no registers now.
+The program has no registers now.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto1/assembler 10
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102e in numerador ()
+rax            0x0                 0
+rbx            0x0                 0
+rcx            0x402004            4202500
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x0                 0
+rbp            0x0                 0x0
+rsp            0x7fffffffe2d0      0x7fffffffe2d0
+r8             0x3                 3
+r9             0x5                 5
+r10            0x2                 2
+r11            0x0                 0
+r12            0x0                 0
+r13            0x0                 0
+r14            0x0                 0
+r15            0x0                 0
+rip            0x40102e            0x40102e <numerador>
+eflags         0x10202             [ IF RF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+Dump of assembler code for function numerador:
+=> 0x000000000040102e <+0>:	mov    (%r8),%rax
+   0x0000000000401031 <+3>:	mov    0x402001,%rbx
+End of assembler dump.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto1/assembler 10
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102e in numerador ()
+rax            0x0                 0
+rbx            0x0                 0
+rcx            0x402004            4202500
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x0                 0
+rbp            0x0                 0x0
+rsp            0x7fffffffe2d0      0x7fffffffe2d0
+r8             0x3                 3
+r9             0x5                 5
+r10            0x2                 2
+r11            0x0                 0
+r12            0x0                 0
+r13            0x0                 0
+r14            0x0                 0
+r15            0x0                 0
+rip            0x40102e            0x40102e <numerador>
+eflags         0x10202             [ IF RF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /mnt/c/Users/Computer/Documents/OAC/reto1/assembler 10
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040102e in numerador ()
+depurador.gdb:6: Error in sourced command file:
+assembler: No such file or directory.
