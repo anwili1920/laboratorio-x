@@ -1,0 +1,4 @@
+depurador.gdb:6: Error in sourced command file:
+ejecutable1: No such file or directory.
+depurador.gdb:6: Error in sourced command file:
+ejecutable1: No such file or directory.
