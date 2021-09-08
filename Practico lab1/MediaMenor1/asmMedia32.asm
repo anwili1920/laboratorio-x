@@ -36,12 +36,14 @@ nuevomenor:
     mov eax,[edi]
     jmp continuar1
 limpiar:
+    mov edx,eax ; aqui guardo al menor
     mov ecx,ebx
-    mov edi,[ebp + 8]
-    mov edx,eax  ; aqui guardo al menor 
+    mov edi,[ebp + 8] 
+    xor eax,eax
 suma:
-    add edi,4       ; incrementamos la posición del puntero. Recordar que un entero tiene 4 bytes
+          ; incrementamos la posición del puntero. Recordar que un entero tiene 4 bytes
     add eax,[edi]   ; leemos el siguiente valor y almacenamos la suma acumulada en eax
+    add edi,4
     loop suma       ; loop para leer todos los valores del arreglo. La instrucción loop trabaja con el registro ecx para saber cuando saltar. Revisar ISA
 
 exit:
