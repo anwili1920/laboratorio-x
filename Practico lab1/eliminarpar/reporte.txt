@@ -1,0 +1,62 @@
+depurador.gdb:6: Error in sourced command file:
+p1: No such file or directory.
+Breakpoint 1 at 0x11dd: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in selector ()
+0x56556328 in selector ()
+Breakpoint 3 at 0x56556339
+Breakpoint 4 at 0x5655634d
+
+Breakpoint 3, 0x56556339 in iteracion ()
+Continuing.
+
+Breakpoint 4, 0x5655634d in Fin ()
+Breakpoint 1 at 0x11dd: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in selector ()
+0x56556328 in selector ()
+0x5655632a in selector ()
+Dump of assembler code for function selector:
+   0x56556320 <+0>:	push   ebp
+   0x56556321 <+1>:	mov    ebp,esp
+   0x56556323 <+3>:	push   esi
+   0x56556324 <+4>:	push   edi
+   0x56556325 <+5>:	push   ebx
+   0x56556326 <+6>:	xor    eax,eax
+   0x56556328 <+8>:	xor    ebx,ebx
+=> 0x5655632a <+10>:	xor    ecx,ecx
+   0x5655632c <+12>:	xor    edx,edx
+   0x5655632e <+14>:	mov    edi,DWORD PTR [ebp+0x8]
+   0x56556331 <+17>:	mov    ecx,DWORD PTR [ebp+0xc]
+   0x56556334 <+20>:	mov    ebx,0x2
+End of assembler dump.
+Breakpoint 3 at 0x56556339
+Function "fin" not defined.
+Breakpoint 4 at 0x5655634d
+Continuing.
+
+Breakpoint 3, 0x56556339 in iteracion ()
+eax            0x0                 0
+ecx            0x1                 1
+0x5655633b in iteracion ()
+Dump of assembler code for function iteracion:
+   0x56556339 <+0>:	mov    eax,DWORD PTR [edi]
+=> 0x5655633b <+2>:	idiv   ebx
+   0x5655633d <+4>:	cmp    edx,0x0
+   0x56556340 <+7>:	je     0x56556349 <borrar>
+End of assembler dump.
+Undefined command: "disassembly".  Try "help".
+Dump of assembler code for function iteracion:
+   0x56556339 <+0>:	mov    eax,DWORD PTR [edi]
+=> 0x5655633b <+2>:	idiv   ebx
+   0x5655633d <+4>:	cmp    edx,0x0
+   0x56556340 <+7>:	je     0x56556349 <borrar>
+End of assembler dump.

@@ -22,7 +22,6 @@ section	.text
 ; 12 10 11 9 
     mov eax,[edi]   ; menor <- arr[0] cargamos en eax la primera posición del arreglo
     mov [rel N],ecx     ; edx ← N
-    mov ebx,ecx
     dec ecx         ; ecx tiene el valor del tamaño del arreglo por lo que lo usamos de contador decreciente 
     jz exit         ; saltamos hacia exit en caso el tamaño del arreglo de datos sea cero 
 elMenor: ;Buscare el menor de los elementos en el loop
@@ -37,7 +36,7 @@ nuevomenor:
     jmp continuar1
 limpiar:
     mov edx,eax ; aqui guardo al menor
-    mov ecx,ebx
+    mov ecx,[ebp + 12] 
     mov edi,[ebp + 8] 
     xor eax,eax
 suma:
