@@ -2,3 +2,457 @@ depurador.gdb:6: Error in sourced command file:
 ejecutable1: No such file or directory.
 depurador.gdb:6: Error in sourced command file:
 ejecutable1: No such file or directory.
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+0x565561e1	9	int main (int argc, char **argv){
+Breakpoint 3 at 0x5655633b
+Breakpoint 4 at 0xf7e03f80
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+<------REGISTROS 1.0------>
+eax            0x2                 2
+ecx            0x0                 0
+eax            0x2                 2
+$1 = 1
+
+Breakpoint 4, 0xf7e03f80 in exit () from /lib32/libc.so.6
+<------registros------>
+All defined variables:
+
+Non-debugging symbols:
+0x56557000  _fp_hw
+0x56557004  _IO_stdin_used
+0x56557028  __GNU_EH_FRAME_HDR
+0x56557188  __FRAME_END__
+0x56558ec4  __frame_dummy_init_array_entry
+0x56558ec4  __init_array_start
+0x56558ec8  __do_global_dtors_aux_fini_array_entry
+0x56558ec8  __init_array_end
+0x56558ecc  _DYNAMIC
+0x56558fcc  _GLOBAL_OFFSET_TABLE_
+0x56559000  __data_start
+0x56559000  data_start
+0x56559004  __dso_handle
+0x56559008  iterador
+0x5655900c  elmenor
+0x56559010  __TMC_END__
+0x56559010  __bss_start
+0x56559010  _edata
+0x56559010  completed
+0x56559014  _end
+0xf7ffc7d8  _dl_argv
+0xf7ffc7e0  _rtld_global_ro
+0xf7ffcf1c  __libc_stack_end
+0xf7ffcf20  __libc_enable_secure
+0xf7ffd040  _rtld_global
+0xf7ffd970  _r_debug
+0xf7dcc004  __resp
+0xf7dcc008  errno
+0xf7dcc044  __h_errno
+0xf7f593b8  in6addr_loopback
+0xf7f593c8  in6addr_any
+0xf7f5e9e0  _itoa_lower_digits
+0xf7f5f068  _libc_intl_domainname
+0xf7f5f0f0  _nl_default_dirname
+0xf7f62d64  _sys_nerr
+0xf7f62d64  sys_nerr
+0xf7f62d68  _sys_nerr
+0xf7f62d68  sys_nerr
+0xf7f62d6c  _sys_nerr
+0xf7f62d6c  sys_nerr
+0xf7f62d70  _sys_nerr
+0xf7f62d70  sys_nerr
+0xf7f62d74  _sys_nerr
+0xf7f62d74  sys_nerr
+0xf7f62d80  h_nerr
+0xf7fb2300  _sys_errlist
+0xf7fb2300  sys_errlist
+0xf7fb2520  _sys_siglist
+0xf7fb2520  sys_siglist
+0xf7fb2640  sys_sigabbrev
+0xf7fb2858  h_errlist
+0xf7fb3044  __fpu_control
+0xf7fb3160  obstack_exit_failure
+0xf7fb318c  re_max_failures
+0xf7fb3190  optopt
+0xf7fb3194  opterr
+0xf7fb3198  optind
+0xf7fb3224  argp_err_exit_status
+0xf7fb3228  __check_rhosts_file
+0xf7fb33e0  __ctype32_toupper
+0xf7fb33e4  __ctype32_tolower
+0xf7fb33e8  __ctype_toupper
+0xf7fb33ec  __ctype_tolower
+0xf7fb33f0  __ctype32_b
+0xf7fb33f4  __ctype_b
+0xf7fb3580  _IO_2_1_stdin_
+0xf7fb36c0  _IO_stdin_
+0xf7fb3720  __memalign_hook
+0xf7fb3724  __realloc_hook
+0xf7fb3728  __malloc_hook
+0xf7fb3b9c  __morecore
+0xf7fb3ba0  obstack_alloc_failed_handler
+0xf7fb3ba4  __tzname
+0xf7fb3ba4  tzname
+0xf7fb3bac  __progname
+0xf7fb3bac  program_invocation_short_name
+0xf7fb3bb0  __progname_full
+0xf7fb3bb0  program_invocation_name
+0xf7fb3c60  _IO_list_all
+0xf7fb3c80  _IO_2_1_stderr_
+0xf7fb3d20  _IO_2_1_stdout_
+0xf7fb3db8  stderr
+0xf7fb3dbc  stdout
+0xf7fb3dc0  stdin
+0xf7fb3de0  _IO_stderr_
+0xf7fb3e40  _IO_stdout_
+0xf7fb42e0  _IO_wfile_jumps
+0xf7fb45e0  _IO_file_jumps
+0xf7fb48c8  __abort_msg
+0xf7fb5310  __after_morecore_hook
+0xf7fb5314  __free_hook
+0xf7fb5318  __malloc_initialize_hook
+0xf7fb5384  _obstack
+0xf7fb5560  __timezone
+0xf7fb5560  timezone
+0xf7fb5564  __daylight
+0xf7fb5564  daylight
+0xf7fb5808  __environ
+0xf7fb5808  _environ
+0xf7fb5808  environ
+0xf7fb5818  ___brk_addr
+0xf7fb5818  __curbrk
+0xf7fb5a5c  locs
+0xf7fb5a60  loc2
+0xf7fb5a64  loc1
+0xf7fb63e0  _res
+0xf7fb66c0  svc_max_pollfd
+0xf7fb66c4  svc_pollfd
+0xf7fb66c8  rpc_createerr
+0xf7fb66e0  svc_fdset
+0xf7fb6760  _null_auth
+0xf7fb677c  svcauthdes_stats
+0xf7fb6b54  _dl_open_hook2
+0xf7fb6b58  _dl_open_hook
+0xf7fb6bd4  _nl_domain_bindings
+0xf7fb6bd8  _nl_msg_cat_cntr
+0xf7fb6d54  mallwatch
+0xf7fb6d90  getdate_err
+0xf7fb6d94  re_syntax_options
+0xf7fb6d98  optarg
+0xf7fb6d9c  error_one_per_line
+0xf7fb6da0  error_print_progname
+0xf7fb6da4  error_message_count
+0xf7fb6dac  argp_program_bug_address
+0xf7fb6db0  argp_program_version
+0xf7fb6db4  argp_program_version_hook
+0xf7fb6db8  __rcmd_errstr
+0xf7fb6dbc  rexecoptions
+0xf7fb6dc0  _res_hconf
+0xf7fb6e00  __key_encryptsession_pk_LOCAL
+0xf7fb6e04  __key_gendes_LOCAL
+0xf7fb6e08  __key_decryptsession_pk_LOCAL
+[Inferior 1 (process 38746) exited normally]
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+Breakpoint 3 at 0x5655633b
+Breakpoint 4 at 0xf7e03f80
+
+Breakpoint 4, 0xf7e03f80 in exit () from /lib32/libc.so.6
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0xffffd0e0          -12064
+<------registros------>
+All defined variables:
+
+Non-debugging symbols:
+0x56557000  _fp_hw
+0x56557004  _IO_stdin_used
+0x56557028  __GNU_EH_FRAME_HDR
+0x56557188  __FRAME_END__
+0x56558ec4  __frame_dummy_init_array_entry
+0x56558ec4  __init_array_start
+0x56558ec8  __do_global_dtors_aux_fini_array_entry
+0x56558ec8  __init_array_end
+0x56558ecc  _DYNAMIC
+0x56558fcc  _GLOBAL_OFFSET_TABLE_
+0x56559000  __data_start
+0x56559000  data_start
+0x56559004  __dso_handle
+0x56559008  iterador
+0x5655900c  elmenor
+0x56559010  __TMC_END__
+0x56559010  __bss_start
+0x56559010  _edata
+0x56559010  completed
+0x56559014  _end
+0xf7ffc7d8  _dl_argv
+0xf7ffc7e0  _rtld_global_ro
+0xf7ffcf1c  __libc_stack_end
+0xf7ffcf20  __libc_enable_secure
+0xf7ffd040  _rtld_global
+0xf7ffd970  _r_debug
+0xf7dcc004  __resp
+0xf7dcc008  errno
+0xf7dcc044  __h_errno
+0xf7f593b8  in6addr_loopback
+0xf7f593c8  in6addr_any
+0xf7f5e9e0  _itoa_lower_digits
+0xf7f5f068  _libc_intl_domainname
+0xf7f5f0f0  _nl_default_dirname
+0xf7f62d64  _sys_nerr
+0xf7f62d64  sys_nerr
+0xf7f62d68  _sys_nerr
+0xf7f62d68  sys_nerr
+0xf7f62d6c  _sys_nerr
+0xf7f62d6c  sys_nerr
+0xf7f62d70  _sys_nerr
+0xf7f62d70  sys_nerr
+0xf7f62d74  _sys_nerr
+0xf7f62d74  sys_nerr
+0xf7f62d80  h_nerr
+0xf7fb2300  _sys_errlist
+0xf7fb2300  sys_errlist
+0xf7fb2520  _sys_siglist
+0xf7fb2520  sys_siglist
+0xf7fb2640  sys_sigabbrev
+0xf7fb2858  h_errlist
+0xf7fb3044  __fpu_control
+0xf7fb3160  obstack_exit_failure
+0xf7fb318c  re_max_failures
+0xf7fb3190  optopt
+0xf7fb3194  opterr
+0xf7fb3198  optind
+0xf7fb3224  argp_err_exit_status
+0xf7fb3228  __check_rhosts_file
+0xf7fb33e0  __ctype32_toupper
+0xf7fb33e4  __ctype32_tolower
+0xf7fb33e8  __ctype_toupper
+0xf7fb33ec  __ctype_tolower
+0xf7fb33f0  __ctype32_b
+0xf7fb33f4  __ctype_b
+0xf7fb3580  _IO_2_1_stdin_
+0xf7fb36c0  _IO_stdin_
+0xf7fb3720  __memalign_hook
+0xf7fb3724  __realloc_hook
+0xf7fb3728  __malloc_hook
+0xf7fb3b9c  __morecore
+0xf7fb3ba0  obstack_alloc_failed_handler
+0xf7fb3ba4  __tzname
+0xf7fb3ba4  tzname
+0xf7fb3bac  __progname
+0xf7fb3bac  program_invocation_short_name
+0xf7fb3bb0  __progname_full
+0xf7fb3bb0  program_invocation_name
+0xf7fb3c60  _IO_list_all
+0xf7fb3c80  _IO_2_1_stderr_
+0xf7fb3d20  _IO_2_1_stdout_
+0xf7fb3db8  stderr
+0xf7fb3dbc  stdout
+0xf7fb3dc0  stdin
+0xf7fb3de0  _IO_stderr_
+0xf7fb3e40  _IO_stdout_
+0xf7fb42e0  _IO_wfile_jumps
+0xf7fb45e0  _IO_file_jumps
+0xf7fb48c8  __abort_msg
+0xf7fb5310  __after_morecore_hook
+0xf7fb5314  __free_hook
+0xf7fb5318  __malloc_initialize_hook
+0xf7fb5384  _obstack
+0xf7fb5560  __timezone
+0xf7fb5560  timezone
+0xf7fb5564  __daylight
+0xf7fb5564  daylight
+0xf7fb5808  __environ
+0xf7fb5808  _environ
+0xf7fb5808  environ
+0xf7fb5818  ___brk_addr
+0xf7fb5818  __curbrk
+0xf7fb5a5c  locs
+0xf7fb5a60  loc2
+0xf7fb5a64  loc1
+0xf7fb63e0  _res
+0xf7fb66c0  svc_max_pollfd
+0xf7fb66c4  svc_pollfd
+0xf7fb66c8  rpc_createerr
+0xf7fb66e0  svc_fdset
+0xf7fb6760  _null_auth
+0xf7fb677c  svcauthdes_stats
+0xf7fb6b54  _dl_open_hook2
+0xf7fb6b58  _dl_open_hook
+0xf7fb6bd4  _nl_domain_bindings
+0xf7fb6bd8  _nl_msg_cat_cntr
+0xf7fb6d54  mallwatch
+0xf7fb6d90  getdate_err
+0xf7fb6d94  re_syntax_options
+0xf7fb6d98  optarg
+0xf7fb6d9c  error_one_per_line
+0xf7fb6da0  error_print_progname
+0xf7fb6da4  error_message_count
+0xf7fb6dac  argp_program_bug_address
+0xf7fb6db0  argp_program_version
+0xf7fb6db4  argp_program_version_hook
+0xf7fb6db8  __rcmd_errstr
+0xf7fb6dbc  rexecoptions
+0xf7fb6dc0  _res_hconf
+0xf7fb6e00  __key_encryptsession_pk_LOCAL
+0xf7fb6e04  __key_gendes_LOCAL
+0xf7fb6e08  __key_decryptsession_pk_LOCAL
+[Inferior 1 (process 38823) exited normally]
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+Breakpoint 3 at 0x5655633b
+Breakpoint 4 at 0xf7e03f80
+
+Breakpoint 4, 0xf7e03f80 in exit () from /lib32/libc.so.6
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0xffffd0e0          -12064
+[Inferior 1 (process 38873) exited normally]
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+Breakpoint 3 at 0x5655633b
+Breakpoint 4 at 0xf7e03f80
+
+Breakpoint 4, 0xf7e03f80 in exit () from /lib32/libc.so.6
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0xffffd0e0          -12064
+[Inferior 1 (process 39920) exited normally]
+depurador.gdb:26: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+Breakpoint 3 at 0x5655634c
+Breakpoint 4 at 0xf7e03f80
+
+Program received signal SIGFPE, Arithmetic exception.
+0x5655635e in exit ()
+<------REGISTROS 1.0------>
+ecx            0x0                 0
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+Breakpoint 3 at 0x134c
+Breakpoint 4 at 0x135b
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+
+Program received signal SIGFPE, Arithmetic exception.
+0x5655635e in exit ()
+<------REGISTROS 1.0------>
+ecx            0x0                 0
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+Breakpoint 3 at 0x1348
+Breakpoint 4 at 0x135b
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+
+Program received signal SIGFPE, Arithmetic exception.
+0x5655635e in exit ()
+<------REGISTROS 1.0------>
+ecx            0x0                 0
+Continuing.
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+Breakpoint 3 at 0x1348
+Breakpoint 4 at 0x135b
+Starting program: /home/ubuntu20/laboratorio-x/Practico lab1/MediaMenor1/ejecutable1 10
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+Continuing.
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x5655635e in exit ()
+Please answer y or n.
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+Breakpoint 3 at 0x56556348
+Breakpoint 4 at 0xf7e03f80
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x5655635e in exit ()
+Continuing.
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+No line 32 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Breakpoint 3 at 0xf7e03f80
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x5655635e in exit ()
+Breakpoint 1 at 0x11dd: file codigo.c, line 9.
+Breakpoint 2 at 0x1326
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at codigo.c:9
+9	int main (int argc, char **argv){
+
+Breakpoint 2, 0x56556326 in asmMedia32 ()
+0x56556328 in asmMedia32 ()
+No line 32 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Breakpoint 3 at 0xf7e03f80
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x5655635e in exit ()

@@ -1,10 +1,7 @@
 ;extern int asmMedia32(int *a, int N);
 ;     eax es el return
 section .data
-    iterador dd 4
-section .bss
-    menor resd 1
-    N resd 1
+    elmenor  dd 0
 global asmMedia32
 section	.text
     asmMedia32:
@@ -16,58 +13,50 @@ section	.text
     push ebx
     ; Limpiar los registros a utilizar
     xor eax,eax
-    xor ebx,ebx
     xor ecx,ecx
+    xor ebx,ebx
     xor edx,edx
     ; Punteros iniciales (esto se inicializa en el archivo pregunta1.c)
     mov edi,[ebp + 8]   ; edi <- *arr
     mov ecx,[ebp + 12]  ; ecx <- N
-
-
 ; 12 10 11 9 
-    mov menor,[edi]   ; menor <- arr[0] cargamos en eax la primera posición del arreglo
-    mov N,ecx     ; ebx ← N
+    mov eax,[edi]   ; menor <- arr[0] cargamos en eax la primera posición del arreglo
+    mov ebx,[ecx]     ; edx ← N
     dec ecx         ; ecx tiene el valor del tamaño del arreglo por lo que lo usamos de contador decreciente 
-    jz exit         ; saltamos hacia exit en caso el tamaño del arreglo de datos sea cero
-    mov eax, 4
-   
+    jz exit         ; saltamos hacia exit en caso el tamaño del arreglo de datos sea cero 
 elMenor: ;Buscare el menor de los elementos en el loop
-    mov edx,[edi + eax] ;  direccionamiento
-    add eax, 4
-    cmp menor,edx
+    add edi, 4
+    cmp eax,edi
     jl  nuevomenor
 continuar1:
     loop elMenor
-    jmp limpiar 
-
+    jmp limpiar
 nuevomenor: 
-    mov [rel menor],edx 
+    mov eax,[edi]
     jmp continuar1 ; 
-limpiar :
+limpiar:
+    ;mov [rel elmenor],eax
     xor ecx,ecx
-    xor edx,edx
-    mov ecx,[rel N] ; recupero el valor N en el registro ecx 
-    mov eax,[rel menor]
-
+    ;xor ebx,ebx
+    mov ecx,[ebx]
 operacion:
     cmp eax,[edi]
     jne suma
 continuar2:
-    add edi,4       ; incrementamos la posición del puntero. Recordar que un entero tiene 4 bytesadd edi,4
+    sub edi,4       ; incrementamos la posición del puntero. Recordar que un entero tiene 4 bytesadd edi,4
     loop operacion
     jmp exit
 
 suma: 
-    add edx,[edi]   ; leemos el siguiente valor y almacenamos la suma acumulada en eax
+    add ebx,[edi]   ; leemos el siguiente valor y almacenamos la suma acumulada en eax
     jmp continuar2   ; loop para leer todos los valores del arreglo. La instrucción loop trabaja con el registro ecx para saber cuando saltar. Revisar ISA
 
+
+
 exit:
-    xor eax,eax 
-    mov eax,edx 
+    mov eax,[ebx]
     cdq              ; extender el signo de eax hacia edx 
-    idiv ebx         ; cociente: eax <- (edx:eax)/ebx ---- residuo: edx
-
-
+    ;idiv edx         ; cociente: eax <- (edx:eax)/ebx ---- residuo: edx
     ; Epílogo de calling conventions de 32 bits
     pop ebx
     pop edi

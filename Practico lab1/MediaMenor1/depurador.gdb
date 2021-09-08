@@ -10,5 +10,13 @@ end
 define hookpost-echo
 echo ------>\n
 end
+set disassembly-flavor intel
+ 
+b main
+b asmMedia32
+r
+c
+ni
+b 32
+b exit
 
-q

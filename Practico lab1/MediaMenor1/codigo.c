@@ -23,7 +23,7 @@ int main (int argc, char **argv){
 
     r1 = asmMedia32(arr, N); // en 32 bits el registro de retorno es eax
     for (i = 0; i < N; i++) printf("%d\t",arr[i]);
-    printf("\nLa media del arreglo es: %d \n", r1);
+    printf("\nla media sin el menor sería %d \n", r1);
 
     free(arr);
 

@@ -1,0 +1,19 @@
+limpiar:
+    ;mov [rel elmenor],eax
+    xor ecx,ecx
+    ;xor ebx,ebx
+
+    mov ecx,[edx]  
+
+
+operacion:
+    cmp eax,[edi]
+    jne suma
+continuar2:
+    sub edi,4       ; incrementamos la posición del puntero. Recordar que un entero tiene 4 bytesadd edi,4
+    loop operacion
+    jmp exit
+
+suma: 
+    add edx,[edi]   ; leemos el siguiente valor y almacenamos la suma acumulada en eax
+    jmp continuar2   ; loop para leer todos los valores del arreglo. La instrucción loop trabaja con el registro ecx para saber cuando saltar. Revisar ISA
