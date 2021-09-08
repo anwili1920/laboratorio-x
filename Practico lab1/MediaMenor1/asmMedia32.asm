@@ -3,7 +3,8 @@
 section .data
     iterador dd 4
 section .bss
-    puntero resd 1
+    menor resd 1
+    N resd 1
 global asmMedia32
 section	.text
     asmMedia32:
@@ -13,40 +14,40 @@ section	.text
     push esi
     push edi
     push ebx
-
     ; Limpiar los registros a utilizar
     xor eax,eax
     xor ebx,ebx
     xor ecx,ecx
     xor edx,edx
-    
     ; Punteros iniciales (esto se inicializa en el archivo pregunta1.c)
     mov edi,[ebp + 8]   ; edi <- *arr
     mov ecx,[ebp + 12]  ; ecx <- N
 
 
 ; 12 10 11 9 
-    mov puntero,[edi]   ; puntero <- arr[0] cargamos en eax la primera posición del arreglo
-    mov ebx,ecx     ; ebx ← N
+    mov menor,[edi]   ; menor <- arr[0] cargamos en eax la primera posición del arreglo
+    mov N,ecx     ; ebx ← N
     dec ecx         ; ecx tiene el valor del tamaño del arreglo por lo que lo usamos de contador decreciente 
     jz exit         ; saltamos hacia exit en caso el tamaño del arreglo de datos sea cero
+    mov eax, 4
    
 elMenor: ;Buscare el menor de los elementos en el loop
-    mov edx,[edi + rel iterador] ;  direccionamiento
-    add iterador, 4
-    cmp puntero,edx
+    mov edx,[edi + eax] ;  direccionamiento
+    add eax, 4
+    cmp menor,edx
     jl  nuevomenor
 continuar1:
     loop elMenor
     jmp limpiar 
 
 nuevomenor: 
-    mov puntero,edx 
+    mov [rel menor],edx 
     jmp continuar1 ; 
 limpiar :
     xor ecx,ecx
     xor edx,edx
-    mov ecx,ebx ; recupero el valor N en el registro ecx 
+    mov ecx,[rel N] ; recupero el valor N en el registro ecx 
+    mov eax,[rel menor]
 
 operacion:
     cmp eax,[edi]
