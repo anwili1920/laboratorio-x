@@ -1,0 +1,312 @@
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$1 = 6
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$2 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$3 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$4 = 2
+[Inferior 1 (process 14097) exited normally]
+depurador.gdb:33: Error in sourced command file:
+No registers.
+<------INICIO DEPURACION------>
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$1 = 6
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$2 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$3 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$4 = 2
+[Inferior 1 (process 14347) exited normally]
+depurador.gdb:33: Error in sourced command file:
+No registers.
+<------------>
+<------INICIO DEPURACION------>
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$1 = 6
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$2 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$3 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$4 = 2
+[Inferior 1 (process 14410) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+Undefined command: "Q".  Try "help".
+<------------>
+<------INICIO DEPURACION------>
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+<------ENTRA AL WHILE------>
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$1 = 6
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$2 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$3 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$4 = 2
+[Inferior 1 (process 14517) exited normally]
+depurador.gdb:35: Error in sourced command file:
+No registers.
+<------------>
+<------INICIO DEPURACION------>
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+<------ENTRA AL WHILE------>
+eax            0x0                 0
+$1 = 6
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$2 = 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$3 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$4 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$5 = 2
+[Inferior 1 (process 14591) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+<------------>
+<------INICIO DEPURACION------>
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+<------ENTRA AL WHILE------>
+eax            0x0                 0
+$1 = 7
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$2 = 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$3 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$4 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$5 = 2
+[Inferior 1 (process 14775) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+<------------>
+<------INICIO DEPURACION------>
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+<------ENTRA AL WHILE------>
+eax            0x0                 0
+$1 = 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$2 = 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$3 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$4 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$5 = 2
+[Inferior 1 (process 14837) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+<------------>
+<------INICIO DEPURACION------>
+Breakpoint 1 at 0x11cd: file programa.c, line 6.
+Breakpoint 2 at 0x12d6
+
+Breakpoint 1, main () at programa.c:6
+6	int main (){
+
+Breakpoint 2, 0x565562d6 in voltear ()
+0x565562d8 in voltear ()
+Breakpoint 3 at 0x565562e4
+Breakpoint 4 at 0x565562f2
+
+Breakpoint 3, 0x565562e4 in guardar ()
+<------REGISTROS 0.0------>
+eax            0x0                 0
+ecx            0x5                 5
+<------ENTRA AL WHILE------>
+eax            0x0                 0
+$1 = 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x61                97
+$2 = 5
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x6e                110
+$3 = 4
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x67                103
+$4 = 3
+
+Breakpoint 3, 0x565562e4 in guardar ()
+eax            0x69                105
+$5 = 2
+
+Breakpoint 4, 0x565562f2 in modificar ()
+eax            0x65                101
+$6 = 6
+
+Breakpoint 4, 0x565562f2 in modificar ()
+eax            0x65                101
+$7 = 5
+
+Breakpoint 4, 0x565562f2 in modificar ()
+eax            0x69                105
+$8 = 4
+
+Breakpoint 4, 0x565562f2 in modificar ()
+eax            0x67                103
+$9 = 3
+
+Breakpoint 4, 0x565562f2 in modificar ()
+eax            0x6e                110
+$10 = 2
+[Inferior 1 (process 14976) exited normally]
+depurador.gdb:35: Error in sourced command file:
+No registers.
