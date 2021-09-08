@@ -60,3 +60,742 @@ Dump of assembler code for function iteracion:
    0x5655633d <+4>:	cmp    edx,0x0
    0x56556340 <+7>:	je     0x56556349 <borrar>
 End of assembler dump.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556309: file eliminarpar.c, line 23.
+Breakpoint 4 at 0x56556349
+
+Breakpoint 4, 0x56556349 in iteracion ()
+
+Breakpoint 3, main (argc=2, argv=0xffffd174) at eliminarpar.c:23
+23	    free(arr);
+Continuing.
+[Inferior 1 (process 75213) exited normally]
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+=> 0x56556336 <selector+6>:	xor    eax,eax
+Breakpoint 3 at 0x56556309: file eliminarpar.c, line 23.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+
+Breakpoint 5, 0x56556364 in Fin ()
+<------REGISTROS 2.0------>
+eax            0x5                 5
+ecx            0x0                 0
+eax            0x5                 5
+$1 = 1
+
+Breakpoint 3, main (argc=2, argv=0xffffd174) at eliminarpar.c:23
+23	    free(arr);
+[Inferior 1 (process 76439) exited normally]
+depurador.gdb:14: Error in sourced command file:
+No frame selected.
+depurador.gdb:14: Error in sourced command file:
+No frame selected.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+Dump of assembler code for function main:
+=> 0x565561ed <+0>:	endbr32 
+   0x565561f1 <+4>:	push   ebp
+   0x565561f2 <+5>:	mov    ebp,esp
+   0x565561f4 <+7>:	push   esi
+   0x565561f5 <+8>:	push   ebx
+   0x565561f6 <+9>:	and    esp,0xfffffff0
+   0x565561f9 <+12>:	sub    esp,0x20
+   0x565561fc <+15>:	call   0x565560f0 <__x86.get_pc_thunk.bx>
+   0x56556201 <+20>:	add    ebx,0x2dc7
+   0x56556207 <+26>:	mov    eax,DWORD PTR [ebp+0x8]
+   0x5655620a <+29>:	dec    eax
+   0x5655620b <+30>:	mov    DWORD PTR [esp+0x18],eax
+   0x5655620f <+34>:	mov    eax,DWORD PTR [esp+0x18]
+   0x56556213 <+38>:	shl    eax,0x2
+   0x56556216 <+41>:	mov    DWORD PTR [esp],eax
+   0x56556219 <+44>:	call   0x56556060 <malloc@plt>
+   0x5655621e <+49>:	mov    DWORD PTR [esp+0x1c],eax
+   0x56556222 <+53>:	cmp    DWORD PTR [ebp+0x8],0x1
+   0x56556226 <+57>:	jg     0x56556261 <main+116>
+   0x56556228 <+59>:	mov    DWORD PTR [esp+0x18],0x3
+   0x56556230 <+67>:	mov    DWORD PTR [esp+0x14],0x0
+   0x56556238 <+75>:	jmp    0x56556255 <main+104>
+   0x5655623a <+77>:	mov    eax,DWORD PTR [esp+0x14]
+   0x5655623e <+81>:	lea    edx,[eax*4+0x0]
+   0x56556245 <+88>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x56556249 <+92>:	add    edx,eax
+   0x5655624b <+94>:	mov    eax,DWORD PTR [esp+0x14]
+   0x5655624f <+98>:	mov    DWORD PTR [edx],eax
+   0x56556251 <+100>:	inc    DWORD PTR [esp+0x14]
+   0x56556255 <+104>:	mov    eax,DWORD PTR [esp+0x14]
+   0x56556259 <+108>:	cmp    eax,DWORD PTR [esp+0x18]
+   0x5655625d <+112>:	jl     0x5655623a <main+77>
+   0x5655625f <+114>:	jmp    0x565562ac <main+191>
+   0x56556261 <+116>:	mov    DWORD PTR [esp+0x14],0x1
+   0x56556269 <+124>:	jmp    0x565562a3 <main+182>
+   0x5655626b <+126>:	mov    eax,DWORD PTR [esp+0x14]
+   0x5655626f <+130>:	lea    edx,[eax*4+0x0]
+   0x56556276 <+137>:	mov    eax,DWORD PTR [ebp+0xc]
+   0x56556279 <+140>:	add    eax,edx
+   0x5655627b <+142>:	mov    eax,DWORD PTR [eax]
+   0x5655627d <+144>:	mov    edx,DWORD PTR [esp+0x14]
+   0x56556281 <+148>:	add    edx,0x3fffffff
+   0x56556287 <+154>:	lea    ecx,[edx*4+0x0]
+   0x5655628e <+161>:	mov    edx,DWORD PTR [esp+0x1c]
+   0x56556292 <+165>:	lea    esi,[ecx+edx*1]
+   0x56556295 <+168>:	mov    DWORD PTR [esp],eax
+   0x56556298 <+171>:	call   0x56556090 <atoi@plt>
+   0x5655629d <+176>:	mov    DWORD PTR [esi],eax
+   0x5655629f <+178>:	inc    DWORD PTR [esp+0x14]
+   0x565562a3 <+182>:	mov    eax,DWORD PTR [esp+0x14]
+   0x565562a7 <+186>:	cmp    eax,DWORD PTR [ebp+0x8]
+   0x565562aa <+189>:	jl     0x5655626b <main+126>
+   0x565562ac <+191>:	mov    eax,DWORD PTR [esp+0x18]
+   0x565562b0 <+195>:	mov    DWORD PTR [esp+0x4],eax
+   0x565562b4 <+199>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x565562b8 <+203>:	mov    DWORD PTR [esp],eax
+   0x565562bb <+206>:	call   0x56556330 <selector>
+   0x565562c0 <+211>:	mov    DWORD PTR [esp+0x14],0x0
+   0x565562c8 <+219>:	jmp    0x565562f3 <main+262>
+   0x565562ca <+221>:	mov    eax,DWORD PTR [esp+0x14]
+   0x565562ce <+225>:	lea    edx,[eax*4+0x0]
+   0x565562d5 <+232>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x565562d9 <+236>:	add    eax,edx
+   0x565562db <+238>:	mov    eax,DWORD PTR [eax]
+   0x565562dd <+240>:	mov    DWORD PTR [esp+0x4],eax
+   0x565562e1 <+244>:	lea    eax,[ebx-0x1fc0]
+   0x565562e7 <+250>:	mov    DWORD PTR [esp],eax
+   0x565562ea <+253>:	call   0x56556040 <printf@plt>
+   0x565562ef <+258>:	inc    DWORD PTR [esp+0x14]
+   0x565562f3 <+262>:	mov    eax,DWORD PTR [esp+0x14]
+   0x565562f7 <+266>:	cmp    eax,DWORD PTR [esp+0x18]
+   0x565562fb <+270>:	jl     0x565562ca <main+221>
+   0x565562fd <+272>:	mov    DWORD PTR [esp],0xa
+   0x56556304 <+279>:	call   0x56556080 <putchar@plt>
+   0x56556309 <+284>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x5655630d <+288>:	mov    DWORD PTR [esp],eax
+   0x56556310 <+291>:	call   0x56556050 <free@plt>
+   0x56556315 <+296>:	mov    eax,0x0
+   0x5655631a <+301>:	lea    esp,[ebp-0x8]
+   0x5655631d <+304>:	pop    ebx
+   0x5655631e <+305>:	pop    esi
+   0x5655631f <+306>:	pop    ebp
+   0x56556320 <+307>:	ret    
+End of assembler dump.
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556309: file eliminarpar.c, line 23.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+
+Breakpoint 5, 0x56556364 in Fin ()
+<------REGISTROS 2.0------>
+eax            0x5                 5
+ecx            0x0                 0
+eax            0x5                 5
+$1 = 1
+
+Breakpoint 3, main (argc=2, argv=0xffffd174) at eliminarpar.c:23
+23	    free(arr);
+[Inferior 1 (process 76805) exited normally]
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556309: file eliminarpar.c, line 23.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+Dump of assembler code for function main:
+=> 0x565561ed <+0>:	endbr32 
+   0x565561f1 <+4>:	push   ebp
+   0x565561f2 <+5>:	mov    ebp,esp
+   0x565561f4 <+7>:	push   esi
+   0x565561f5 <+8>:	push   ebx
+   0x565561f6 <+9>:	and    esp,0xfffffff0
+   0x565561f9 <+12>:	sub    esp,0x20
+   0x565561fc <+15>:	call   0x565560f0 <__x86.get_pc_thunk.bx>
+   0x56556201 <+20>:	add    ebx,0x2dc7
+   0x56556207 <+26>:	mov    eax,DWORD PTR [ebp+0x8]
+   0x5655620a <+29>:	dec    eax
+   0x5655620b <+30>:	mov    DWORD PTR [esp+0x18],eax
+   0x5655620f <+34>:	mov    eax,DWORD PTR [esp+0x18]
+   0x56556213 <+38>:	shl    eax,0x2
+   0x56556216 <+41>:	mov    DWORD PTR [esp],eax
+   0x56556219 <+44>:	call   0x56556060 <malloc@plt>
+   0x5655621e <+49>:	mov    DWORD PTR [esp+0x1c],eax
+   0x56556222 <+53>:	cmp    DWORD PTR [ebp+0x8],0x1
+   0x56556226 <+57>:	jg     0x56556261 <main+116>
+   0x56556228 <+59>:	mov    DWORD PTR [esp+0x18],0x3
+   0x56556230 <+67>:	mov    DWORD PTR [esp+0x14],0x0
+   0x56556238 <+75>:	jmp    0x56556255 <main+104>
+   0x5655623a <+77>:	mov    eax,DWORD PTR [esp+0x14]
+   0x5655623e <+81>:	lea    edx,[eax*4+0x0]
+   0x56556245 <+88>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x56556249 <+92>:	add    edx,eax
+   0x5655624b <+94>:	mov    eax,DWORD PTR [esp+0x14]
+   0x5655624f <+98>:	mov    DWORD PTR [edx],eax
+   0x56556251 <+100>:	inc    DWORD PTR [esp+0x14]
+   0x56556255 <+104>:	mov    eax,DWORD PTR [esp+0x14]
+   0x56556259 <+108>:	cmp    eax,DWORD PTR [esp+0x18]
+   0x5655625d <+112>:	jl     0x5655623a <main+77>
+   0x5655625f <+114>:	jmp    0x565562ac <main+191>
+   0x56556261 <+116>:	mov    DWORD PTR [esp+0x14],0x1
+   0x56556269 <+124>:	jmp    0x565562a3 <main+182>
+   0x5655626b <+126>:	mov    eax,DWORD PTR [esp+0x14]
+   0x5655626f <+130>:	lea    edx,[eax*4+0x0]
+   0x56556276 <+137>:	mov    eax,DWORD PTR [ebp+0xc]
+   0x56556279 <+140>:	add    eax,edx
+   0x5655627b <+142>:	mov    eax,DWORD PTR [eax]
+   0x5655627d <+144>:	mov    edx,DWORD PTR [esp+0x14]
+   0x56556281 <+148>:	add    edx,0x3fffffff
+   0x56556287 <+154>:	lea    ecx,[edx*4+0x0]
+   0x5655628e <+161>:	mov    edx,DWORD PTR [esp+0x1c]
+   0x56556292 <+165>:	lea    esi,[ecx+edx*1]
+   0x56556295 <+168>:	mov    DWORD PTR [esp],eax
+   0x56556298 <+171>:	call   0x56556090 <atoi@plt>
+   0x5655629d <+176>:	mov    DWORD PTR [esi],eax
+   0x5655629f <+178>:	inc    DWORD PTR [esp+0x14]
+   0x565562a3 <+182>:	mov    eax,DWORD PTR [esp+0x14]
+   0x565562a7 <+186>:	cmp    eax,DWORD PTR [ebp+0x8]
+   0x565562aa <+189>:	jl     0x5655626b <main+126>
+   0x565562ac <+191>:	mov    eax,DWORD PTR [esp+0x18]
+   0x565562b0 <+195>:	mov    DWORD PTR [esp+0x4],eax
+   0x565562b4 <+199>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x565562b8 <+203>:	mov    DWORD PTR [esp],eax
+   0x565562bb <+206>:	call   0x56556330 <selector>
+   0x565562c0 <+211>:	mov    DWORD PTR [esp+0x14],0x0
+   0x565562c8 <+219>:	jmp    0x565562f3 <main+262>
+   0x565562ca <+221>:	mov    eax,DWORD PTR [esp+0x14]
+   0x565562ce <+225>:	lea    edx,[eax*4+0x0]
+   0x565562d5 <+232>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x565562d9 <+236>:	add    eax,edx
+   0x565562db <+238>:	mov    eax,DWORD PTR [eax]
+   0x565562dd <+240>:	mov    DWORD PTR [esp+0x4],eax
+   0x565562e1 <+244>:	lea    eax,[ebx-0x1fc0]
+   0x565562e7 <+250>:	mov    DWORD PTR [esp],eax
+   0x565562ea <+253>:	call   0x56556040 <printf@plt>
+   0x565562ef <+258>:	inc    DWORD PTR [esp+0x14]
+   0x565562f3 <+262>:	mov    eax,DWORD PTR [esp+0x14]
+   0x565562f7 <+266>:	cmp    eax,DWORD PTR [esp+0x18]
+   0x565562fb <+270>:	jl     0x565562ca <main+221>
+   0x565562fd <+272>:	mov    DWORD PTR [esp],0xa
+   0x56556304 <+279>:	call   0x56556080 <putchar@plt>
+   0x56556309 <+284>:	mov    eax,DWORD PTR [esp+0x1c]
+   0x5655630d <+288>:	mov    DWORD PTR [esp],eax
+   0x56556310 <+291>:	call   0x56556050 <free@plt>
+   0x56556315 <+296>:	mov    eax,0x0
+   0x5655631a <+301>:	lea    esp,[ebp-0x8]
+   0x5655631d <+304>:	pop    ebx
+   0x5655631e <+305>:	pop    esi
+   0x5655631f <+306>:	pop    ebp
+   0x56556320 <+307>:	ret    
+End of assembler dump.
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556309: file eliminarpar.c, line 23.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556309: file eliminarpar.c, line 23.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+
+Breakpoint 5, 0x56556364 in Fin ()
+<------REGISTROS 2.0------>
+eax            0x5                 5
+ecx            0x0                 0
+eax            0x5                 5
+$1 = 1
+
+Breakpoint 3, main (argc=2, argv=0xffffd174) at eliminarpar.c:23
+23	    free(arr);
+[Inferior 1 (process 78270) exited normally]
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556349
+Breakpoint 4 at 0x56556364
+
+Breakpoint 3, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+
+Breakpoint 4, 0x56556364 in Fin ()
+<------REGISTROS 2.0------>
+eax            0x5                 5
+ecx            0x0                 0
+eax            0x5                 5
+$1 = 1
+[Inferior 1 (process 78381) exited normally]
+depurador.gdb:37: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 4, 0x56556349 in iteracion ()
+
+Breakpoint 5, 0x56556364 in Fin ()
+<------REGISTROS 1.0------>
+eax            0x5                 5
+ecx            0x0                 0
+eax            0x5                 5
+$1 = 1
+[Inferior 1 (process 78562) exited normally]
+depurador.gdb:35: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+
+Breakpoint 2, 0x56556336 in selector ()
+0x56556338 in selector ()
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 78642) exited normally]
+depurador.gdb:35: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 78718) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+<------REGISTROS 1.0------>
+eax            0x5655a1a0          1448452512
+ecx            0x0                 0
+depurador.gdb:25: Error in sourced command file:
+No symbol "q1" in current context.
+Please answer y or n.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+depurador.gdb:25: Error in sourced command file:
+No symbol "q1" in current context.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 79065) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 79140) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+
+Breakpoint 5, 0x56556364 in Fin ()
+<------REGISTROS 1.0------>
+eax            0x5                 5
+ecx            0x0                 0
+eax            0x5                 5
+$1 = 1
+[Inferior 1 (process 79214) exited normally]
+depurador.gdb:35: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 79300) exited normally]
+depurador.gdb:34: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+<------iteracion------>
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 79398) exited normally]
+depurador.gdb:35: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+$1 = 2
+<------iteracion------>
+eax            0x0                 0
+$2 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$3 = 1
+[Inferior 1 (process 79462) exited normally]
+depurador.gdb:37: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+depurador.gdb:28: Error in sourced command file:
+Bad format string, missing '"'.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+2<------iteracion------>
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 79617) exited normally]
+depurador.gdb:37: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+2<------------>
+<------iteracion------>
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 79679) exited normally]
+depurador.gdb:38: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+2 
+<------------>
+<------iteracion------>
+eax            0x0                 0
+$1 = 2
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 1
+[Inferior 1 (process 79752) exited normally]
+depurador.gdb:38: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+10 
+<------------>
+<------iteracion------>
+eax            0x0                 0
+$1 = 10
+
+Breakpoint 5, 0x56556364 in Fin ()
+eax            0x5                 5
+$2 = 9
+[Inferior 1 (process 79864) exited normally]
+depurador.gdb:38: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x11ed: file eliminarpar.c, line 5.
+Breakpoint 2 at 0x1336
+
+Breakpoint 1, main (argc=2, argv=0xffffd174) at eliminarpar.c:5
+5	int main(int argc, char **argv){
+0x565561f1	5	int main(int argc, char **argv){
+Breakpoint 3 at 0x56556228: file eliminarpar.c, line 13.
+Breakpoint 4 at 0x56556349
+Breakpoint 5 at 0x56556364
+
+Breakpoint 2, 0x56556336 in selector ()
+
+Breakpoint 4, 0x56556349 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x1                 1
+10 
+<------------>
+<------iteracion------>
+eax            0x0                 0
+$1 = 10
+
+Breakpoint 5, 0x56556364 in Fin ()
+9 
+eax            0x5                 5
+$2 = 9
+[Inferior 1 (process 79938) exited normally]
+8 
+depurador.gdb:39: Error in sourced command file:
+The program has no registers now.

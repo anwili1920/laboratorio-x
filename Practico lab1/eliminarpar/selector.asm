@@ -22,6 +22,7 @@ section	.text
         mov ebx, 2
     iteracion:
         mov eax,[edi] ; arr[0] → eax
+        cdq
         idiv ebx
         cmp edx,0
         je borrar
@@ -38,6 +39,7 @@ section	.text
     ;*****************************************
     ; Epílogo de calling conventions de 32 bits
     Fin:
+        
         pop ebx
         pop edi
         pop esi 

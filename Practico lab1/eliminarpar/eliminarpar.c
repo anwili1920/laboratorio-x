@@ -16,9 +16,14 @@ int main(int argc, char **argv){
         for (i = 1; i < argc; i++) arr[i-1] = (int)atoi(argv[i]);
     }
 // eliminar los valores pares de un arreglo
-    selector(arr, N);
+
+    printf(" Valores originales\n");
     for (i = 0; i < N; i++) printf("%d\t",arr[i]);
-    printf("\n cantidad  %d \n", cantpar);
+    printf("\n");
+    selector(arr, N);
+    printf(" Valores sin pares\n");
+    for (i = 0; i < N; i++) printf("%d\t",arr[i]);
+    printf("\n");
 
     free(arr);
     return 0;

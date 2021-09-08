@@ -495,3 +495,49 @@ Traceback (most recent call last):
   File "/usr/share/gdb/python/gdb/__init__.py", line 43, in flush
     def flush(self):
 KeyboardInterrupt: 
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+Breakpoint 3 at 0x1356
+
+Breakpoint 1, main () at cambiarCadena.c:6
+warning: Source file is more recent than executable.
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x56556364
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556364 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x5                 5
+eax            0x0                 0
+$1 = 6
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x41                65
+$2 = 5
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x4e                78
+$3 = 4
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x47                71
+$4 = 3
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x49                73
+$5 = 2
+
+Breakpoint 6, 0x56556373 in Fin ()
+eax            0x45                69
+$6 = 1
+[Inferior 1 (process 77896) exited normally]
+depurador.gdb:38: Error in sourced command file:
+No registers.
