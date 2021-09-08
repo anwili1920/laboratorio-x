@@ -1,10 +1,12 @@
 ;extern int asmMedia32(int *a, int N);
-;     eax es el return 
+;     eax es el return
+section .data
+    iterador dd 4
+section .bss
+    puntero resd 1
 global asmMedia32
-
 section	.text
-
-asmMedia32:
+    asmMedia32:
     ; Prólogo para calling conventions en 32 bits
     push ebp
     mov ebp, esp
@@ -17,29 +19,29 @@ asmMedia32:
     xor ebx,ebx
     xor ecx,ecx
     xor edx,edx
-    xor r9d ,r9d 
+    
     ; Punteros iniciales (esto se inicializa en el archivo pregunta1.c)
     mov edi,[ebp + 8]   ; edi <- *arr
     mov ecx,[ebp + 12]  ; ecx <- N
 
 
 ; 12 10 11 9 
-    mov eax,[edi]   ; eax <- arr[0] cargamos en eax la primera posición del arreglo
+    mov puntero,[edi]   ; puntero <- arr[0] cargamos en eax la primera posición del arreglo
     mov ebx,ecx     ; ebx ← N
     dec ecx         ; ecx tiene el valor del tamaño del arreglo por lo que lo usamos de contador decreciente 
     jz exit         ; saltamos hacia exit en caso el tamaño del arreglo de datos sea cero
-    mov [r9d], 4  ; OJOO!!! OJOZAZOOOO 
+   
 elMenor: ;Buscare el menor de los elementos en el loop
-    mov [edx],[edi + r9d] ;  direccionamiento
-    add [r9d], 4
-    cmp eax,edx
+    mov edx,[edi + rel iterador] ;  direccionamiento
+    add iterador, 4
+    cmp puntero,edx
     jl  nuevomenor
 continuar1:
     loop elMenor
     jmp limpiar 
 
 nuevomenor: 
-    mov eax,edx 
+    mov puntero,edx 
     jmp continuar1 ; 
 limpiar :
     xor ecx,ecx

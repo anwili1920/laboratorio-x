@@ -1,0 +1,497 @@
+depurador.gdb:6: Error in sourced command file:
+ejecutable1: No such file or directory.
+Breakpoint 1 at 0x1376
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00001376 <upgratter+6>
+Breakpoint 1 at 0x1376
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00001376 <upgratter+6>
+Breakpoint 1 at 0x1376
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00001376 <upgratter+6>
+depurador.gdb:17: Error in sourced command file:
+No frame selected.
+depurador.gdb:14: Error in sourced command file:
+No frame selected.
+depurador.gdb:14: Error in sourced command file:
+No frame selected.
+Breakpoint 1 at 0x1376
+depurador.gdb:14: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+depurador.gdb:14: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+depurador.gdb:13: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+depurador.gdb:14: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1376
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 at 0x1356
+Function "breakpoint24" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Function "Fin" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+depurador.gdb:17: Error in sourced command file:
+No symbol "break" in current context.
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+Breakpoint 3 at 0x56556356
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+No line 24 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+Breakpoint 5 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556373 in Fin ()
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x565561cd in main at cambiarCadena.c:6
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x56556356 <upgratter+6>
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+5       breakpoint     keep y   0x56556373 <Fin>
+	breakpoint already hit 1 time
+<------REGISTROS 1.0------>
+depurador.gdb:28: Error in sourced command file:
+Invalid register `rax'
+Please answer y or n.
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+Breakpoint 3 at 0x56556356
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x5655632e: file cambiarCadena.c, line 21.
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 6, 0x56556373 in Fin ()
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x565561cd in main at cambiarCadena.c:6
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x56556356 <upgratter+6>
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+5       breakpoint     keep y   0x5655632e in main at cambiarCadena.c:21
+6       breakpoint     keep y   0x56556373 <Fin>
+	breakpoint already hit 1 time
+<------REGISTROS 1.0------>
+depurador.gdb:28: Error in sourced command file:
+Invalid register `rax'
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+Breakpoint 3 at 0x56556356
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x5655632e: file cambiarCadena.c, line 21.
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 6, 0x56556373 in Fin ()
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x565561cd in main at cambiarCadena.c:6
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x56556356 <upgratter+6>
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+5       breakpoint     keep y   0x5655632e in main at cambiarCadena.c:21
+6       breakpoint     keep y   0x56556373 <Fin>
+	breakpoint already hit 1 time
+<------REGISTROS 1.0------>
+eax            0x45                69
+ecx            0x0                 0
+A debugging session is active.
+
+	Inferior 1 [process 14482] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+Breakpoint 3 at 0x56556356
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x5655632e: file cambiarCadena.c, line 21.
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 6, 0x56556373 in Fin ()
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x565561cd in main at cambiarCadena.c:6
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x56556356 <upgratter+6>
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x56556292 in main at cambiarCadena.c:13
+5       breakpoint     keep y   0x5655632e in main at cambiarCadena.c:21
+6       breakpoint     keep y   0x56556373 <Fin>
+	breakpoint already hit 1 time
+<------REGISTROS 1.0------>
+eax            0x45                69
+ecx            0x0                 0
+A debugging session is active.
+
+	Inferior 1 [process 14539] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+Breakpoint 3 at 0x1356
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x56556364
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556364 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x5                 5
+eax            0x0                 0
+$1 = 5
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x41                65
+$2 = 4
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x4e                78
+$3 = 3
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x47                71
+$4 = 2
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x49                73
+$5 = 1
+
+Breakpoint 6, 0x56556373 in Fin ()
+A debugging session is active.
+
+	Inferior 1 [process 14802] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+Breakpoint 3 at 0x1356
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x56556364
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556364 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x5                 5
+eax            0x0                 0
+$1 = 5
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x41                65
+$2 = 4
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x4e                78
+$3 = 3
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x47                71
+$4 = 2
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x49                73
+$5 = 1
+
+Breakpoint 6, 0x56556373 in Fin ()
+[Inferior 1 (process 14878) exited normally]
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+Breakpoint 3 at 0x1356
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x56556364
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556364 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x5                 5
+eax            0x0                 0
+$1 = 5
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x41                65
+$2 = 4
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x4e                78
+$3 = 3
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x47                71
+$4 = 2
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x49                73
+$5 = 1
+
+Breakpoint 6, 0x56556373 in Fin ()
+eax            0x45                69
+$6 = 0
+[Inferior 1 (process 14935) exited normally]
+depurador.gdb:38: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+Breakpoint 3 at 0x1356
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x56556364
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556364 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x5                 5
+eax            0x0                 0
+$1 = 6
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x41                65
+$2 = 5
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x4e                78
+$3 = 4
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x47                71
+$4 = 3
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x49                73
+$5 = 2
+
+Breakpoint 6, 0x56556373 in Fin ()
+eax            0x45                69
+$6 = 1
+[Inferior 1 (process 15058) exited normally]
+depurador.gdb:38: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+Breakpoint 3 at 0x1356
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x56556364
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556364 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x5                 5
+eax            0x0                 0
+$1 = 6
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x41                65
+$2 = 5
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x4e                78
+$3 = 4
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x47                71
+$4 = 3
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x49                73
+$5 = 2
+
+Breakpoint 6, 0x56556373 in Fin ()
+eax            0x45                69
+$6 = 1
+[Inferior 1 (process 15128) exited normally]
+depurador.gdb:38: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x11cd: file cambiarCadena.c, line 6.
+Breakpoint 2 at 0x1292: file cambiarCadena.c, line 13.
+Breakpoint 3 at 0x1356
+
+Breakpoint 1, main () at cambiarCadena.c:6
+6	int main (){
+
+Breakpoint 2, main () at cambiarCadena.c:13
+13	    printf("\n");
+0x56556299	13	    printf("\n");
+Breakpoint 4 at 0x56556292: file cambiarCadena.c, line 13.
+Breakpoint 5 at 0x56556364
+Breakpoint 6 at 0x56556373
+
+Breakpoint 3, 0x56556356 in upgratter ()
+
+Breakpoint 5, 0x56556364 in iteracion ()
+<------REGISTROS 1.0------>
+eax            0x0                 0
+ecx            0x5                 5
+eax            0x0                 0
+$1 = 6
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x41                65
+$2 = 5
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x4e                78
+$3 = 4
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x47                71
+$4 = 3
+
+Breakpoint 5, 0x56556364 in iteracion ()
+eax            0x49                73
+$5 = 2
+
+Breakpoint 6, 0x56556373 in Fin ()
+eax            0x45                69
+$6 = 1
+[Inferior 1 (process 15232) exited normally]
+depurador.gdb:38: Error in sourced command file:
+No registers.
+Exception ignored in: <gdb._GdbOutputFile object at 0x7f062cf7c6a0>
+Traceback (most recent call last):
+  File "/usr/share/gdb/python/gdb/__init__.py", line 43, in flush
+    def flush(self):
+KeyboardInterrupt: 
