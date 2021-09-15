@@ -1,0 +1,1664 @@
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+derecho.gdb:6: Error in sourced command file:
+p1: No such file or directory.
+derecho.gdb:6: Error in sourced command file:
+p1: No such file or directory.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1153
+<------REGISTROS 1.0------>
+derecho.gdb:18: Error in sourced command file:
+The program has no registers now.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1153
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+<------REGISTROS 1.0------>
+rax            0x3                 3
+rcx            0x4                 4
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x51                81
+$4 = 2
+[Inferior 1 (process 36127) exited normally]
+derecho.gdb:31: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1153
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+<------REGISTROS 1.0------>
+rax            0x3                 3
+rcx            0x4                 4
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x51                81
+$4 = 2
+[Inferior 1 (process 36302) exited normally]
+derecho.gdb:31: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1153
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+<------REGISTROS 1.0------>
+rax            0x3                 3
+rcx            0x4                 4
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x51                81
+$4 = 2
+[Inferior 1 (process 36479) exited normally]
+derecho.gdb:31: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1153
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+<------REGISTROS 1.0------>
+rax            0x3                 3
+rcx            0x4                 4
+rax            0x3                 3
+$1 = 4
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x9                 9
+$2 = 3
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x1b                27
+$3 = 2
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x51                81
+$4 = 1
+[Inferior 1 (process 36643) exited normally]
+derecho.gdb:31: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1153
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+<------REGISTROS 1.0------>
+rax            0x3                 3
+rcx            0x4                 4
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 4
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x9                 9
+$2 = 3
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x1b                27
+$3 = 2
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x51                81
+$4 = 1
+[Inferior 1 (process 36808) exited normally]
+derecho.gdb:31: Error in sourced command file:
+No registers.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1153
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+<------REGISTROS 1.0------>
+rax            0x3                 3
+rcx            0x4                 4
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 4
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x9                 9
+$2 = 3
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x1b                27
+$3 = 2
+
+Breakpoint 2, 0x0000555555555153 in potencia ()
+rax            0x51                81
+$4 = 1
+[Inferior 1 (process 37248) exited normally]
+derecho.gdb:31: Error in sourced command file:
+No registers.
+Exception ignored in: <gdb._GdbOutputFile object at 0x7f6bbad766a0>
+Traceback (most recent call last):
+  File "/usr/share/gdb/python/gdb/__init__.py", line 43, in flush
+    def flush(self):
+KeyboardInterrupt: 
+Breakpoint 1 at 0x1167
+Breakpoint 2 at 0x1199
+Breakpoint 3 at 0x1169
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555169 in continuar ()
+0x0000555555555187 in continuar ()
+r11            0x6e206c6500050007  7935461724474638343
+Undefined info command: "rax".  Try "help info".
+rax            0x3                 3
+r10            0x5                 5
+0x000055555555518e in continuar ()
+0x0000555555555191 in continuar ()
+r10            0x4                 4
+0x0000555555555195 in continuar ()
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0x51                81
+rcx            0xfffffffffffffffd  -3
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0xf3                243
+rcx            0xfffffffffffffffc  -4
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rcx            0xffffffffffffffe5  -27
+Breakpoint 1 at 0x1167
+Breakpoint 2 at 0x1199
+Breakpoint 3 at 0x1169
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555169 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555199 in potencia ()
+rcx            0xfffffffffffffff8  -8
+Breakpoint 1 at 0x1167
+Breakpoint 2 at 0x119f
+Breakpoint 3 at 0x1169
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555169 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555169 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555519f in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555169 in continuar ()
+rax            0x2d9               729
+Breakpoint 1 at 0x1167
+Breakpoint 2 at 0x119c
+Breakpoint 3 at 0x1169
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555169 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+r11            0x6e206c6500050007  7935461724474638343
+Please answer y or n.
+Breakpoint 1 at 0x1167
+Breakpoint 2 at 0x119c
+Breakpoint 3 at 0x1169
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x0                 0
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555169 in continuar ()
+
+Breakpoint 1, 0x0000555555555167 in sumatoria ()
+
+Breakpoint 2, 0x000055555555519c in potencia ()
+r11            0x6e206c6500050007  7935461724474638343
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r11            0x6e206c6500050004  7935461724474638340
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r11            0x6e206c6500050004  7935461724474638340
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r11            0x6e206c6500050004  7935461724474638340
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r11            0x6e206c6500050004  7935461724474638340
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r11            0x6e206c6500050004  7935461724474638340
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r11            0x6e206c6500050004  7935461724474638340
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r11            0x6e206c6500050004  7935461724474638340
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r11            0x6e206c6500050004  7935461724474638340
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Please answer y or n.
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r11            0x6e206c6500050004  7935461724474638340
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r11            0x6e206c6500050004  7935461724474638340
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r11            0x6e206c6500050004  7935461724474638340
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r11            0x6e206c6500050004  7935461724474638340
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r11            0x6e206c6500050004  7935461724474638340
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r11            0x6e206c6500050004  7935461724474638340
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r11            0x6e206c6500050004  7935461724474638340
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r11            0x6e206c6500050004  7935461724474638340
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r11            0x6e206c6500050004  7935461724474638340
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r11            0x6e206c6500050004  7935461724474638340
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r11            0x6e206c6500050004  7935461724474638340
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r11            0x6e206c6500050004  7935461724474638340
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r11            0x6e206c6500050004  7935461724474638340
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r11            0x6e206c6500050004  7935461724474638340
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r11            0x6e206c6500050004  7935461724474638340
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r11            0x6e206c6500050004  7935461724474638340
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Please answer y or n.
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r11            0x6e206c6500050004  7935461724474638340
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r11            0x6e206c6500050004  7935461724474638340
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r11            0x6e206c6500050004  7935461724474638340
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r11            0x6e206c6500050004  7935461724474638340
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x555555555040      93824992235584
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r12            0x555555555040      93824992235584
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r12            0x555555555040      93824992235584
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r12            0x555555555040      93824992235584
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r12            0x555555555040      93824992235584
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x6e206c6500050004  7935461724474638340
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x555555555040      93824992235584
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r12            0x555555555040      93824992235584
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r12            0x555555555040      93824992235584
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r12            0x555555555040      93824992235584
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r12            0x555555555040      93824992235584
+$5 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r11            0x6e206c65000502dd  7935461724474639069
+Breakpoint 1 at 0x115c
+Breakpoint 2 at 0x1178
+Breakpoint 3 at 0x115e
+
+Breakpoint 1, 0x000055555555515c in sumatoria ()
+
+Breakpoint 2, 0x0000555555555178 in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x0                 0
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x3                 3
+$1 = 5
+
+Breakpoint 2, 0x0000555555555178 in potencia ()
+rax            0x9                 9
+r12            0x3                 3
+$2 = 4
+
+Breakpoint 2, 0x0000555555555178 in potencia ()
+rax            0x1b                27
+r12            0x3                 3
+$3 = 3
+
+Breakpoint 2, 0x0000555555555178 in potencia ()
+rax            0x51                81
+r12            0x3                 3
+$4 = 2
+
+Breakpoint 2, 0x0000555555555178 in potencia ()
+rax            0xf3                243
+r12            0x3                 3
+$5 = 1
+
+Breakpoint 3, 0x000055555555515e in continuar ()
+
+Breakpoint 1, 0x000055555555515c in sumatoria ()
+
+Breakpoint 2, 0x0000555555555178 in potencia ()
+r11            0x0                 0
+Breakpoint 1 at 0x115f
+Breakpoint 2 at 0x117b
+Breakpoint 3 at 0x1161
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x0                 0
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x4                 4
+$1 = 5
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 4
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 3
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 2
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0xf3                243
+r12            0x4                 4
+$5 = 1
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+r11            0x0                 0
+Breakpoint 1 at 0x115f
+Breakpoint 2 at 0x117b
+Breakpoint 3 at 0x1161
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r11            0x0                 0
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x4                 4
+$1 = 5
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 4
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 3
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 2
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0xf3                243
+r12            0x4                 4
+$5 = 1
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+r12            0x2dd               733
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x00005555555551ae in numero ()
+Undefined info command: "rax".  Try "help info".
+rax            0xad6e666e666b333   781064915021902643
+Breakpoint 1 at 0x115f
+Breakpoint 2 at 0x117b
+Breakpoint 3 at 0x1161
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x4                 4
+$1 = 5
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 4
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 3
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 2
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0xf3                243
+r12            0x4                 4
+$5 = 1
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+r12            0x2dd               733
+Breakpoint 1 at 0x115f
+Breakpoint 2 at 0x117b
+Breakpoint 3 at 0x1161
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x4                 4
+$1 = 5
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 4
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 3
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 2
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+rax            0xf3                243
+r12            0x4                 4
+$5 = 1
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x2dd               733
+
+Breakpoint 2, 0x000055555555517b in potencia ()
+r12            0x2dd               733
+Breakpoint 1 at 0x115f
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1161
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x5                 5
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x4                 4
+$1 = 5
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0xf3                243
+r12            0x4                 4
+$5 = 1
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x2dd               733
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r12            0x2dd               733
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x1181
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x4                 4
+$1 = 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 2
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+rcx            0x3                 3
+rax            0x3                 3
+r9             0x3                 3
+r12            0xf7                247
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x1181
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+<------calculo de la potencia------>
+rax            0x3                 3
+r12            0x4                 4
+$1 = 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 2
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x1181
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+<------calculo de la potencia------>
+r12            0x4                 4
+r10            0x4                 4
+rax            0x3                 3
+r12            0x4                 4
+$1 = 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 2
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0x148               328
+Continuing.
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x00005555555551b4 in numero ()
+Breakpoint 1 at 0x1162
+Breakpoint 2 at 0x1181
+Breakpoint 3 at 0x1164
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x4                 4
+<------calculo de la potencia------>
+r12            0x4                 4
+r10            0x4                 4
+rax            0x3                 3
+r12            0x4                 4
+$1 = 4
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x9                 9
+r12            0x4                 4
+$2 = 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x1b                27
+r12            0x4                 4
+$3 = 2
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+rax            0x51                81
+r12            0x4                 4
+$4 = 1
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+r12            0xf7                247
+r10            0x3                 3
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+r12            0x148               328
+Continuing.
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x0000555555555162 in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555181 in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555164 in continuar ()
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x00005555555551b4 in numero ()
+r12            0x16c               364
+Breakpoint 1 at 0x115f
+Breakpoint 2 at 0x117e
+Breakpoint 3 at 0x1161
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x3                 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rcx            0x4                 4
+rax            0x3                 3
+r9             0x3                 3
+r12            0x3                 3
+<------calculo de la potencia------>
+r12            0x3                 3
+r10            0x4                 4
+rax            0x3                 3
+r12            0x3                 3
+$1 = 4
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x9                 9
+r12            0x3                 3
+$2 = 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x1b                27
+r12            0x3                 3
+$3 = 2
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+rax            0x51                81
+r12            0x3                 3
+$4 = 1
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+r12            0xf6                246
+r10            0x3                 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r12            0xf6                246
+r10            0x3                 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+r12            0xf6                246
+r10            0x3                 3
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+r12            0x147               327
+Continuing.
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+Continuing.
+
+Breakpoint 1, 0x000055555555515f in sumatoria ()
+Continuing.
+
+Breakpoint 2, 0x000055555555517e in potencia ()
+Continuing.
+
+Breakpoint 3, 0x0000555555555161 in continuar ()
+Continuing.
+
+Program received signal SIGFPE, Arithmetic exception.
+0x00005555555551b1 in numero ()
+r12            0x16b               363
