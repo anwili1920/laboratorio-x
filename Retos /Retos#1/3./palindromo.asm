@@ -1,7 +1,7 @@
 section .data
     si_ db "Si es",10
     no_ db "No es",10 
-    palabra db "aaannaaa"
+    ;palabra db "aaannaaa"
     impresion db "Es palindroma? ",10 
     len equ $ - impresion
     salto db 10 
@@ -9,13 +9,19 @@ section .data
 section .bss 
     resultado resq 1
     auxiliar resb 8
+    palabra resq 16
 section .text 
     global main
     main:
     xor rax,rax ; limpio todos los registros 
     xor rbx,rbx
     xor r9,r9
-
+    ; SYS_READ
+	mov rax, 0
+	mov rdi, 0
+	mov rsi, palabra
+	mov rdx, 16
+	syscall
     mov rbx, QWORD[rel palabra]
     mov rax, QWORD[rel palabra]  
     bswap rbx

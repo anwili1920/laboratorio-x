@@ -58,7 +58,8 @@ section .text
         mov r9,10 ; coloco 10
         mov rax,r12;coloco el número que necesito imprimir
         ;bswap rax
-    numero:
+
+        numero:
         cdq
         idiv r9 ; en rax → 36 y en rdx→3
         ADD rdx,48 ;Ascii el '0'→ 48
