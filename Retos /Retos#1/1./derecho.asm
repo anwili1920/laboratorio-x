@@ -1,5 +1,5 @@
 section .data
-    impresion db "el número es: ",10 
+    impresion db "el número es(AL REVES): ",10 
 	len equ $ - impresion
     variable dw 3
     N dw 5   

@@ -1,8 +1,7 @@
 section .data
- suma dw 1 ; como todos los números elevados a la 0 son 1 , entonces la sumatoria empieza por 1 
- variable dw 3
+ variable dw 2
  N dw 5
- impresion db "el número es: ",10 
+ impresion db "el número es(AL REVES): ",10 
  len equ $ - impresion  
  salto db 10
 section .bss 
@@ -55,13 +54,13 @@ section .text
         ;imprimir número
         xor rax,rax ; limpio el rax
         mov r9,10 ; coloco 10
-        mov rax,r12
+        mov rax,r12 ;coloco el número que necesito imprimir
     numero:
         cdq
         idiv r9 ; en rax → 36 y en rdx→3
-        ADD rdx,48
+        ADD rdx,48 ;Ascii el '0'→ 48
         mov [rel digito],rdx
-        mov rbx,rax
+        mov rbx,rax ;almaceno en un registro auxiliar la parte de rax
         mov rax, 1
 	    mov rdi, 1
 	    mov rsi, digito
