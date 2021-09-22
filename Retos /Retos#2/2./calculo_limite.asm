@@ -2,7 +2,7 @@ section .data
     N dq 5.0
     unitario dq 1.0
 section .bss 
-    resultado resq 1
+    resultadoresq resq 1
 section .text
     global _start
     _start:
