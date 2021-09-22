@@ -1,0 +1,595 @@
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x3                 3
+<------calculo de la potencia------>
+rax            0x0                 0
+r12            0x0                 0
+$1 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x9                 9
+$2 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0xd                 13
+$3 = 1
+[Inferior 1 (process 154001) exited normally]
+depurador.gdb:31: Error in sourced command file:
+No registers.
+Starting program: /home/ubuntu20/laboratorio-2-anwili1920-1/pregunta1/ejecutable 10
+
+Breakpoint 1, 0x0000555555555130 in main ()
+0x0000555555555133 in main ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+rcx            0x3                 3
+Continuing.
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+r12            0x9                 9
+Continuing.
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+r12            0xd                 13
+0x000055555555514b in sumatoria ()
+0x000055555555514e in sumatoria ()
+0x0000555555555151 in sumatoria ()
+Dump of assembler code for function sumatoria:
+   0x0000555555555148 <+0>:	mov    rax,rcx
+   0x000055555555514b <+3>:	mul    rax
+   0x000055555555514e <+6>:	add    r12,rax
+=> 0x0000555555555151 <+9>:	xor    rax,rax
+   0x0000555555555154 <+12>:	loop   0x555555555148 <sumatoria>
+End of assembler dump.
+0x0000555555555154 in sumatoria ()
+r12            0xe                 14
+0x0000555555555156 in guardarmem_ ()
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x3                 3
+<------calculo de la potencia------>
+rax            0x0                 0
+r12            0x0                 0
+$1 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x9                 9
+$2 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0xd                 13
+$3 = 1
+
+Breakpoint 3, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0xe                 14
+0x000055555555515d in exit ()
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x3                 3
+<------calculo de la potencia------>
+rax            0x0                 0
+r12            0x0                 0
+$1 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x9                 9
+$2 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0xd                 13
+$3 = 1
+
+Breakpoint 3, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0xe                 14
+0x000055555555515d in exit ()
+A debugging session is active.
+
+	Inferior 1 [process 154856] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x3                 3
+<------calculo de la potencia------>
+rax            0x0                 0
+r12            0x0                 0
+$1 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x9                 9
+$2 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0xd                 13
+$3 = 1
+
+Breakpoint 3, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0xe                 14
+0x000055555555515d in exit ()
+A debugging session is active.
+
+	Inferior 1 [process 154977] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x6                 6
+<------calculo de la potencia------>
+rax            0x0                 0
+r12            0x0                 0
+$1 = 6
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x24                36
+$2 = 5
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x3d                61
+$3 = 4
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x4d                77
+$4 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x56                86
+$5 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+rax            0x0                 0
+r12            0x5a                90
+$6 = 1
+
+Breakpoint 3, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0x5b                91
+0x000055555555515d in exit ()
+A debugging session is active.
+
+	Inferior 1 [process 155126] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x6                 6
+<------calculo de la sumatoria------>
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x0                 0
+$1 = 6
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x24                36
+$2 = 5
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x3d                61
+$3 = 4
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x4d                77
+$4 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x56                86
+$5 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x5a                90
+$6 = 1
+
+Breakpoint 3, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0x5b                91
+0x000055555555515d in exit ()
+A debugging session is active.
+
+	Inferior 1 [process 155199] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1151
+Breakpoint 4 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x6                 6
+<------calculo de la sumatoria------>
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x0                 0
+$1 = 6
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x24                36
+<------sumatoria------>
+r12            0x24                36
+$2 = 6
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x24                36
+$3 = 5
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x19                25
+<------sumatoria------>
+r12            0x3d                61
+$4 = 5
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x3d                61
+$5 = 4
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x10                16
+<------sumatoria------>
+r12            0x4d                77
+$6 = 4
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x4d                77
+$7 = 3
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x9                 9
+<------sumatoria------>
+r12            0x56                86
+$8 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x56                86
+$9 = 2
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x4                 4
+<------sumatoria------>
+r12            0x5a                90
+$10 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x5a                90
+$11 = 1
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x1                 1
+<------sumatoria------>
+r12            0x5b                91
+$12 = 1
+
+Breakpoint 4, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0x5b                91
+0x000055555555515d in exit ()
+A debugging session is active.
+
+	Inferior 1 [process 155876] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1151
+Breakpoint 4 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+<------REGISTROS 1.0------>
+rax            0x555555555130      93824992235824
+rcx            0x555555555170      93824992235888
+<------calculo de la sumatoria------>
+<------calculo de cuadrados------>
+rax            0x555555555130      93824992235824
+<------sumatoria------>
+r12            0x555555555040      93824992235584
+$1 = 93824992235888
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x0                 0
+$2 = 6
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x24                36
+<------sumatoria------>
+r12            0x24                36
+$3 = 6
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x24                36
+$4 = 5
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x19                25
+<------sumatoria------>
+r12            0x3d                61
+$5 = 5
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x3d                61
+$6 = 4
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x10                16
+<------sumatoria------>
+r12            0x4d                77
+$7 = 4
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x4d                77
+$8 = 3
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x9                 9
+<------sumatoria------>
+r12            0x56                86
+$9 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x56                86
+$10 = 2
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x4                 4
+<------sumatoria------>
+r12            0x5a                90
+$11 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x5a                90
+$12 = 1
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x1                 1
+<------sumatoria------>
+r12            0x5b                91
+$13 = 1
+
+Breakpoint 4, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0x5b                91
+0x000055555555515d in exit ()
+A debugging session is active.
+
+	Inferior 1 [process 155997] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1148
+Breakpoint 3 at 0x1151
+Breakpoint 4 at 0x1156
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x6                 6
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x0                 0
+$1 = 6
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x24                36
+<------sumatoria------>
+r12            0x24                36
+$2 = 6
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x24                36
+$3 = 5
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x19                25
+<------sumatoria------>
+r12            0x3d                61
+$4 = 5
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x3d                61
+$5 = 4
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x10                16
+<------sumatoria------>
+r12            0x4d                77
+$6 = 4
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x4d                77
+$7 = 3
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x9                 9
+<------sumatoria------>
+r12            0x56                86
+$8 = 3
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x56                86
+$9 = 2
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x4                 4
+<------sumatoria------>
+r12            0x5a                90
+$10 = 2
+
+Breakpoint 2, 0x0000555555555148 in sumatoria ()
+<------calculo de cuadrados------>
+rax            0x0                 0
+<------sumatoria------>
+r12            0x5a                90
+$11 = 1
+
+Breakpoint 3, 0x0000555555555151 in breakpoint1 ()
+<------calculo de cuadrados------>
+rax            0x1                 1
+<------sumatoria------>
+r12            0x5b                91
+$12 = 1
+
+Breakpoint 4, 0x0000555555555156 in guardarmem_ ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+r12            0x5b                91
+0x000055555555515d in exit ()
+A debugging session is active.
+
+	Inferior 1 [process 156077] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

@@ -1,0 +1,306 @@
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1145
+Breakpoint 3 at 0x1175
+Breakpoint 4 at 0x119d
+Breakpoint 5 at 0x11bc
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555145 in iteracion ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+Dump of assembler code for function iteracion:
+=> 0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+   0x0000555555555159 <+20>:	mov    edx,0x1
+   0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+   0x0000555555555166 <+33>:	mov    cl,BYTE PTR ds:0x6
+   0x000055555555516d <+40>:	xor    r10,r10
+   0x0000555555555170 <+43>:	xor    r8,r8
+   0x0000555555555173 <+46>:	jmp    0x55555555519d <buscar>
+End of assembler dump.
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555555166 in iteracion ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+No frame selected.
+Starting program: /home/ubuntu20/laboratorio-2-anwili1920-1/pregunta2/ejecutable 10
+
+Breakpoint 1, 0x0000555555555130 in main ()
+0x0000555555555133 in main ()
+0x0000555555555136 in main ()
+0x0000555555555139 in main ()
+0x0000555555555142 in main ()
+Dump of assembler code for function main:
+   0x0000555555555130 <+0>:	xor    rax,rax
+   0x0000555555555133 <+3>:	xor    rbx,rbx
+   0x0000555555555136 <+6>:	xor    rcx,rcx
+   0x0000555555555139 <+9>:	xor    rdx,rdx
+   0x000055555555513c <+12>:	xor    r9,r9
+   0x000055555555513f <+15>:	xor    r13,r13
+=> 0x0000555555555142 <+18>:	xor    r12,r12
+End of assembler dump.
+
+Breakpoint 2, 0x0000555555555145 in iteracion ()
+0x000055555555514a in iteracion ()
+0x000055555555514f in iteracion ()
+0x0000555555555159 in iteracion ()
+0x000055555555515e in iteracion ()
+Dump of assembler code for function iteracion:
+   0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+   0x0000555555555159 <+20>:	mov    edx,0x1
+=> 0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+   0x0000555555555166 <+33>:	mov    cl,BYTE PTR ds:0x6
+   0x000055555555516d <+40>:	xor    r10,r10
+   0x0000555555555170 <+43>:	xor    r8,r8
+   0x0000555555555173 <+46>:	jmp    0x55555555519d <buscar>
+End of assembler dump.
+0x0000555555555160 in iteracion ()
+0x0000555555555166 in iteracion ()
+Dump of assembler code for function iteracion:
+   0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+   0x0000555555555159 <+20>:	mov    edx,0x1
+   0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+=> 0x0000555555555166 <+33>:	mov    cl,BYTE PTR ds:0x6
+   0x000055555555516d <+40>:	xor    r10,r10
+   0x0000555555555170 <+43>:	xor    r8,r8
+   0x0000555555555173 <+46>:	jmp    0x55555555519d <buscar>
+End of assembler dump.
+rax            0x65                101
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555555166 in iteracion ()
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /home/ubuntu20/laboratorio-2-anwili1920-1/pregunta2/ejecutable 10
+
+Breakpoint 1, 0x0000555555555130 in main ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555145 in iteracion ()
+0x000055555555515e in iteracion ()
+0x0000555555555160 in iteracion ()
+0x0000555555555166 in iteracion ()
+Dump of assembler code for function iteracion:
+   0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+   0x0000555555555159 <+20>:	mov    edx,0x1
+   0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+=> 0x0000555555555166 <+33>:	mov    cl,BYTE PTR ds:0x6
+   0x000055555555516d <+40>:	xor    r10,r10
+   0x0000555555555170 <+43>:	xor    r8,r8
+   0x0000555555555173 <+46>:	jmp    0x55555555519d <buscar>
+End of assembler dump.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555555166 in iteracion ()
+rcx            0x555555555160      93824992235872
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Starting program: /home/ubuntu20/laboratorio-2-anwili1920-1/pregunta2/ejecutable 10
+
+Breakpoint 1, 0x0000555555555130 in main ()
+Continuing.
+
+Breakpoint 2, 0x0000555555555145 in iteracion ()
+0x000055555555515e in iteracion ()
+0x0000555555555160 in iteracion ()
+0x0000555555555166 in iteracion ()
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555555166 in iteracion ()
+Dump of assembler code for function iteracion:
+   0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+   0x0000555555555159 <+20>:	mov    edx,0x1
+   0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+=> 0x0000555555555166 <+33>:	mov    cl,BYTE PTR ds:0x6
+   0x000055555555516d <+40>:	xor    r10,r10
+   0x0000555555555170 <+43>:	xor    r8,r8
+   0x0000555555555173 <+46>:	jmp    0x55555555519d <buscar>
+End of assembler dump.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1145
+Breakpoint 3 at 0x1173
+Breakpoint 4 at 0x119b
+Breakpoint 5 at 0x11ba
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555145 in iteracion ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+Dump of assembler code for function iteracion:
+=> 0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+   0x0000555555555159 <+20>:	mov    edx,0x1
+   0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+   0x0000555555555166 <+33>:	mov    ecx,0x6
+   0x000055555555516b <+38>:	xor    r10,r10
+   0x000055555555516e <+41>:	xor    r8,r8
+   0x0000555555555171 <+44>:	jmp    0x55555555519b <buscar>
+End of assembler dump.
+Continuing.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+Continuing.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1145
+Breakpoint 3 at 0x1173
+Breakpoint 4 at 0x119b
+Breakpoint 5 at 0x11ba
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555145 in iteracion ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+0x000055555555514a in iteracion ()
+0x000055555555514f in iteracion ()
+0x0000555555555159 in iteracion ()
+Dump of assembler code for function iteracion:
+   0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+=> 0x0000555555555159 <+20>:	mov    edx,0x1
+   0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+   0x0000555555555166 <+33>:	mov    ecx,0x6
+   0x000055555555516b <+38>:	xor    r10,r10
+   0x000055555555516e <+41>:	xor    r8,r8
+   0x0000555555555171 <+44>:	jmp    0x55555555519b <buscar>
+End of assembler dump.
+0x000055555555515e in iteracion ()
+0x0000555555555160 in iteracion ()
+0x0000555555555166 in iteracion ()
+0x000055555555516b in iteracion ()
+0x000055555555516e in iteracion ()
+rax            0x65                101
+rcx            0x6                 6
+0x0000555555555171 in iteracion ()
+Dump of assembler code for function iteracion:
+   0x0000555555555145 <+0>:	mov    eax,0x0
+   0x000055555555514a <+5>:	mov    edi,0x0
+   0x000055555555514f <+10>:	movabs rsi,0x555555558034
+   0x0000555555555159 <+20>:	mov    edx,0x1
+   0x000055555555515e <+25>:	syscall 
+   0x0000555555555160 <+27>:	mov    al,BYTE PTR [rip+0x2ece]        # 0x555555558034 <caracter>
+   0x0000555555555166 <+33>:	mov    ecx,0x6
+   0x000055555555516b <+38>:	xor    r10,r10
+   0x000055555555516e <+41>:	xor    r8,r8
+=> 0x0000555555555171 <+44>:	jmp    0x55555555519b <buscar>
+End of assembler dump.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+0x00005555555551a2 in breakpoint46 ()
+Dump of assembler code for function breakpoint46:
+=> 0x00005555555551a2 <+0>:	add    r9,r10
+   0x00005555555551a5 <+3>:	cmp    r9,rax
+   0x00005555555551a8 <+6>:	je     0x5555555551ba <encontro>
+   0x00005555555551aa <+8>:	inc    r10
+   0x00005555555551ad <+11>:	loop   0x55555555519b <buscar>
+   0x00005555555551af <+13>:	cmp    r8,0x1
+   0x00005555555551b3 <+17>:	je     0x555555555173 <continuar>
+   0x00005555555551b5 <+19>:	inc    rbx
+   0x00005555555551b8 <+22>:	jmp    0x555555555173 <continuar>
+End of assembler dump.
+0x00005555555551a5 in breakpoint46 ()
+r9             0x63                99
+rax            0x65                101
+Continuing.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+Continuing.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+r9             0x64                100
+rax            0x65                101
+0x00005555555551a2 in breakpoint46 ()
+0x00005555555551a5 in breakpoint46 ()
+r9             0x65                101
+rax            0x65                101
+0x00005555555551a8 in breakpoint46 ()
+
+Breakpoint 5, 0x00005555555551ba in encontro ()
+0x00005555555551c1 in encontro ()
+Dump of assembler code for function encontro:
+   0x00005555555551ba <+0>:	mov    r12b,BYTE PTR [rip+0x2e55]        # 0x555555558016 <cadena>
+=> 0x00005555555551c1 <+7>:	add    r12,r10
+   0x00005555555551c4 <+10>:	mov    r12,QWORD PTR [rax]
+   0x00005555555551c7 <+13>:	mov    r8d,0x1
+   0x00005555555551cd <+19>:	inc    r13
+   0x00005555555551d0 <+22>:	jmp    0x555555555173 <continuar>
+End of assembler dump.
+r12            0x2a                42
+r10            0x2                 2
+0x00005555555551c4 in encontro ()
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555551c4 in encontro ()
+Dump of assembler code for function encontro:
+   0x00005555555551ba <+0>:	mov    r12b,BYTE PTR [rip+0x2e55]        # 0x555555558016 <cadena>
+   0x00005555555551c1 <+7>:	add    r12,r10
+=> 0x00005555555551c4 <+10>:	mov    r12,QWORD PTR [rax]
+   0x00005555555551c7 <+13>:	mov    r8d,0x1
+   0x00005555555551cd <+19>:	inc    r13
+   0x00005555555551d0 <+22>:	jmp    0x555555555173 <continuar>
+End of assembler dump.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Breakpoint 1 at 0x1130
+Breakpoint 2 at 0x1145
+Breakpoint 3 at 0x1173
+Breakpoint 4 at 0x119b
+Breakpoint 5 at 0x11ba
+
+Breakpoint 1, 0x0000555555555130 in main ()
+
+Breakpoint 2, 0x0000555555555145 in iteracion ()
+<------REGISTROS 1.0------>
+rax            0x0                 0
+rcx            0x0                 0
+Continuing.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+Continuing.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+Continuing.
+
+Breakpoint 4, 0x000055555555519b in buscar ()
+Continuing.
+
+Breakpoint 5, 0x00005555555551ba in encontro ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555551c4 in encontro ()
