@@ -20,12 +20,12 @@ section .text
     movsd xmm4,[unitario]
     divsd xmm1,xmm3
     addsd xmm1,xmm4
+    movsd xmm2,xmm1
     cvtsd2si ecx,[rel N]
     dec  rcx
     potencia:
-        mulsd xmm1,xmm1
+        mulsd xmm1,xmm2
         loop potencia
-    
     breakpoint1:
     exit: 
     mov rax, 60

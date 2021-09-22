@@ -1,0 +1,28 @@
+Breakpoint 1 at 0x401055
+Breakpoint 2 at 0x40105b
+
+Breakpoint 1, 0x0000000000401055 in potencia ()
+<------REGISTROS 1.0------>
+$1 = 1.2
+rcx            0x4                 4
+
+Breakpoint 1, 0x0000000000401055 in potencia ()
+<------calculo de la media------>
+$2 = 1.4399999999999999
+$3 = 3
+
+Breakpoint 1, 0x0000000000401055 in potencia ()
+$4 = 1.728
+$5 = 2
+
+Breakpoint 1, 0x0000000000401055 in potencia ()
+$6 = 2.0735999999999999
+$7 = 1
+
+Breakpoint 2, 0x000000000040105b in exit ()
+$8 = 2.4883199999999999
+A debugging session is active.
+
+	Inferior 1 [process 3836] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
