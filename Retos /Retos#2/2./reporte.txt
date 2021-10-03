@@ -1,0 +1,40 @@
+Breakpoint 1 at 0x11ae: file funcionmain.c, line 11.
+Breakpoint 2 at 0x1160
+Breakpoint 3 at 0x11a3
+Breakpoint 4 at 0x11a9
+
+Breakpoint 1, main (argc=21845, argv=0x7ffff7e64fc8 <__exit_funcs_lock>) at funcionmain.c:11
+11	int main(int argc, char **argv){
+
+Breakpoint 2, 0x0000555555555160 in ASMLimite ()
+0x0000555555555164 in ASMLimite ()
+
+Breakpoint 3, 0x00005555555551a3 in potencia ()
+<------calculo de la potencia------>
+$1 = 1.2
+$2 = 1.2
+$3 = 4
+
+Breakpoint 3, 0x00005555555551a3 in potencia ()
+$4 = 1.4399999999999999
+$5 = 1.2
+$6 = 3
+
+Breakpoint 3, 0x00005555555551a3 in potencia ()
+$7 = 1.728
+$8 = 1.2
+$9 = 2
+
+Breakpoint 3, 0x00005555555551a3 in potencia ()
+$10 = 2.0735999999999999
+$11 = 1.2
+$12 = 1
+
+Breakpoint 4, __GI_exit (status=0) at exit.c:138
+138	exit.c: No such file or directory.
+$13 = 1
+A debugging session is active.
+
+	Inferior 1 [process 24896] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

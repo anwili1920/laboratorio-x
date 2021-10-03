@@ -1,0 +1,185 @@
+Breakpoint 1 at 0x119b
+Breakpoint 2 at 0x11a7
+Breakpoint 3 at 0x11b1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+<------REGISTROS 1.0------>
+rax            0x5                 5
+r9             0x5                 5
+$1 = {1.2, 0}
+$2 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$3 = {1.2, 0}
+$4 = 1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$5 = {1.4399999999999999, 0}
+$6 = 1
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$7 = {1.4399999999999999, 0}
+$8 = 0
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$9 = {2.0735999999999999, 0}
+$10 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+
+Breakpoint 3, 0x00005555555551b1 in fin ()
+0x00005555555551b5 in fin ()
+$11 = {2.4883199999999999, 9.532824124368238e-130}
+A debugging session is active.
+
+	Inferior 1 [process 24850] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x119b
+Breakpoint 2 at 0x11a7
+Breakpoint 3 at 0x11b1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+<------REGISTROS 1.0------>
+rax            0x5                 5
+r9             0x5                 5
+$1 = {1.2, 0}
+$2 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$3 = {1.2, 0}
+$4 = 1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$5 = {1.4399999999999999, 0}
+$6 = 1
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$7 = {1.4399999999999999, 0}
+$8 = 0
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$9 = {2.0735999999999999, 0}
+$10 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+
+Breakpoint 3, 0x00005555555551b1 in fin ()
+0x00005555555551b5 in fin ()
+$11 = {2.4883199999999999, 9.532824124368238e-130}
+A debugging session is active.
+
+	Inferior 1 [process 25538] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x119b
+Breakpoint 2 at 0x11a7
+Breakpoint 3 at 0x11b1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+<------REGISTROS 1.0------>
+rax            0x5                 5
+r9             0x5                 5
+$1 = {1.2, 0}
+$2 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$3 = {1.2, 0}
+$4 = 1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$5 = {1.4399999999999999, 0}
+$6 = 1
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$7 = {1.4399999999999999, 0}
+$8 = 0
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$9 = {2.0735999999999999, 0}
+$10 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+
+Breakpoint 3, 0x00005555555551b1 in fin ()
+0x00005555555551b5 in fin ()
+$11 = {2.4883199999999999, 9.532824124368238e-130}
+A debugging session is active.
+
+	Inferior 1 [process 25722] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x119b
+Breakpoint 2 at 0x11a7
+Breakpoint 3 at 0x11b1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+<------REGISTROS 1.0------>
+rax            0x5                 5
+r9             0x5                 5
+$1 = {1.2, 0}
+$2 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$3 = {1.2, 0}
+$4 = 1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$5 = {1.4399999999999999, 0}
+$6 = 1
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$7 = {1.4399999999999999, 0}
+$8 = 0
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$9 = {2.0735999999999999, 0}
+$10 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+
+Breakpoint 3, 0x00005555555551b1 in fin ()
+0x00005555555551b5 in fin ()
+$11 = {2.4883199999999999, 9.532824124368238e-130}
+A debugging session is active.
+
+	Inferior 1 [process 25768] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Breakpoint 1 at 0x119b
+Breakpoint 2 at 0x11a7
+Breakpoint 3 at 0x11b1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+<------REGISTROS 1.0------>
+rax            0x5                 5
+r9             0x5                 5
+$1 = {1.2, 0}
+$2 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$3 = {1.2, 0}
+$4 = 1
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$5 = {1.4399999999999999, 0}
+$6 = 1
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+$7 = {1.4399999999999999, 0}
+$8 = 0
+
+Breakpoint 1, 0x000055555555519b in potenciadorBinario ()
+$9 = {2.0735999999999999, 0}
+$10 = 0
+
+Breakpoint 2, 0x00005555555551a7 in continuar ()
+
+Breakpoint 3, 0x00005555555551b1 in fin ()
+0x00005555555551b5 in fin ()
+$11 = {2.4883199999999999, 9.532824124368238e-130}
+A debugging session is active.
+
+	Inferior 1 [process 25865] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
